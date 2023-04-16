@@ -1,6 +1,6 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10867532&assignment_repo_type=AssignmentRepo)
-# Nome do projeto
-Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
+# iWork
+
+Prestadores de serviços enfrentam dificuldades na hora de encontrar clientes. Clientes enfrentam dificuldades na hora de encontrar prestadores de serviços. O objetivo do projeto é acabar com esse ciclo.
 
 ## Alunos integrantes da equipe
 
@@ -13,7 +13,8 @@ Escreva um ou dois parágrafos resumindo o objetivo do seu projeto.
 ## Professores responsáveis
 
 * Ilo Riveiro
-* Rommel Vieira Carneiro
+* Luciana Mara Freitas Diniz
+* Rafael Glater da Cruz Machado
 
 ## Instruções de utilização
 
