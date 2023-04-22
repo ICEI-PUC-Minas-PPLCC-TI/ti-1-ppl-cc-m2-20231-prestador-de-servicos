@@ -1,21 +1,21 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+iWork
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Ciencia da computação
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
 >
 > Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+> - Antonio Soares Couto Neto
+> - Henrique Oliveira da Cunha Franco
+> - Gabriel Jota Lizardo
+> - Andre Palis Santana Lobão
+> - Arthur Serra Lobão Lira
 
 # Estrutura do Documento
 
@@ -56,7 +56,7 @@
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Prestadores de serviço enfrentam dificuldades na hora de encontrar clientes. Clientes enfrentam dificuldades na hora de encontrar prestadores de serviço. O objetivo do projeto é acabar com esse ciclo. Pessoas comuns, empresas procurando por funcionários, o site pode ser usado por qualquer um.
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
@@ -76,7 +76,7 @@
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Queremos facilitar a vida das pessoas na hora de encontrar algum serviço. Se você precisa de alguem para arrumar seu chuveiro, basta pegar o aplicativo, entrar em contato com um prestador e pronto. É o lugar perfeito para prestadores divulgarem seu trabalho.
 
 > Aqui você deve descrever os objetivos do trabalho indicando que o
 > objetivo geral é desenvolver um software para solucionar o problema

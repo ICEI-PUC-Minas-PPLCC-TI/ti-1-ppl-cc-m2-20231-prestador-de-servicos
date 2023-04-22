@@ -1,0 +1,114 @@
+html{
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bg-blue{
+  background:#07ABD9;
+}
+
+body{
+  margin: 15px;
+  border:1px solid #07ABD9;
+  border-radius: 2px;
+}
+
+.navbar-light .navbar-title {
+  color: white; 
+  font-weight: 200;
+  font-size: 1.5em;
+  margin-right: 1em;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #07ABD9 !important;
+}
+
+a{
+  color:white;
+  text-decoration: none;
+}
+a:hover{
+  color:#07ABD9;
+}
+
+input[type="search"]{
+  height: 2em;
+  width: 12em;
+}
+input[type=search]:focus{
+  border: 1px solid #07ABD9;
+  box-shadow: none;
+  transition: border 2s;
+}
+#search {
+  background-color: #333;
+  height: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  border: 1px solid #07ABD9;
+}
+#search:focus{
+  box-shadow:none;
+}
+.form-select {
+  width: 10em;
+  height: 2em;
+  color: #333;
+  border: 1px solid #07ABD9;
+}
+.fa-brands {
+  padding: 0.2em;
+  font-size: 2em;
+}
+.form-range{
+  height: 0.5em !important;
+  width: 50% !important;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28, 0, 157, 208.80%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler {
+  padding: .25rem .75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: box-shadow .15s ease-in-out;
+}
+.navbar-light .navbar-toggler {
+  color: transparent;
+  border-color: transparent;
+}
+.img-small{
+  width: 10em;
+}
+.card{
+  border: 1px solid #07ABD9;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+.fa-star{
+  color:#444;
+}
+.checked{
+  color: #07ABD9 !important;
+}
+@media screen and(max-width:1300px){
+  #wrapper1{
+    flex-direction: column;
+  }
+}

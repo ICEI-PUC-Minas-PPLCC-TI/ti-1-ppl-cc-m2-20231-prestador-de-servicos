@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="img/hey_you.png" class="icon">
+
+    <title>iWork</title>
+  </head>
+  <body class="bg-dark">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark text-white mb-4">
+      <div class="container-fluid">
+        <a class="navbar-title" href="#">iWork</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between text-center mt-2 flex-no-wrap" id="navbarSupportedContent">
+          <div class="d-flex flex-column align-items-start">
+          <form class="d-flex me-auto">
+            <input class="form-control me-2" type="search" placeholder="Search for a service" aria-label="Search">
+            <button id="search" class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+        <div class="d-flex flex-column align-items-start">
+          <ul class="navbar-nav">
+            <li class="nav-item buttom">
+              <a class="nav-link" href="#">Sign in</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Register</a>
+            </li>
+          </ul>
+          </div>
+        </div>
+        </div>
+      </div>
+    </nav>
+
+      <div class="container-fluid mb-4">
+        <div id="wrapper1" class="row bg-dark text-white d-flex">
+          <div class="col-lg-3">
+            <div class="servicos w-100 h-100 d-flex flex-column align-items-center p-5">
+              <p><b>Service/Price filter</b></p>
+              <p>Find the right service for the right price!</p>
+              <form>
+                <select class="form-select form-select mb-2">
+                  <option disabled selected hidden>TYPE</option>
+                  <option>Home</option>
+                  <option>Pet</option>
+                  <option>Auto</option>
+                  <option>Devs</option>
+                </select>
+              </form>
+              <form>
+                <select class="form-select form-select mb-2">
+                  <option disabled selected hidden>CITY</option>
+                  <option>MG/bh</option>
+                  <option>MG/sabará</option>
+                  <option>SP/sp</option>
+                </select>
+              </form>
+              <form>
+                <select class="form-select form-select mb-2">
+                  <option disabled selected hidden>CATEGORY</option>
+                  <option>24/7</option>
+                  <option>Emergency</option>
+                  <option>Scheduling</option>
+                </select>
+              </form>
+              <input type="range" class="mb-2">
+              <button style="width:12em;" id="look" class="btn bg-dark border text-white"><i class="fa fa-search" aria-hidden="true"></i> Search </button>
+            </div>
+          </div>
+          <div id="carouselExampleCaptions" class="carousel slide col-lg-9" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/ex3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Check our sponsors!</h5>
+                  <p>Need a developer? He got you!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/ex2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Check our sponsors!</h5>
+                  <p>Home stuff? Just do it!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/ex1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Check our sponsors!</h5>
+                  <p>DJ to your next party? Hell yeah!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/ex4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Check our sponsors!</h5>
+                  <p>Need help with your Pet? MEOW!</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid d-flex flex-wrap justify-content-around">
+        <div class="card bg-dark" style="width: 18rem;">
+          <img class="card-img-top img-small" src="img/hey_you.png" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-white">R$: 400.</p>
+          </div>
+        <div class="star">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+        </div>
+        </div>
+        <div class="card bg-dark" style="width: 18rem;">
+          <img class="card-img-top img-small" src="img/hey_you.png" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-white">R$: 400.</p>
+          </div>
+        <div class="star">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+        </div>
+        </div>
+        <div class="card bg-dark" style="width: 18rem;">
+          <img class="card-img-top img-small" src="img/hey_you.png" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-white">R$: 400.</p>
+          </div>
+        <div class="star">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+        </div>
+        </div>
+        <div class="card bg-dark" style="width: 18rem;">
+          <img class="card-img-top img-small" src="img/hey_you.png" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-white">R$: 400.</p>
+          </div>
+        <div class="star">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+        </div>
+        </div>
+        <div class="card bg-dark" style="width: 18rem;">
+          <img class="card-img-top img-small" src="img/hey_you.png" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-white">R$: 400.</p>
+          </div>
+        <div class="star">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+        </div>
+        </div>
+        <div class="card bg-dark" style="width: 18rem;">
+          <img class="card-img-top img-small" src="img/hey_you.png" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-white">R$: 400.</p>
+          </div>
+        <div class="star">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+        </div>
+        </div>
+        <div class="card bg-dark" style="width: 18rem;">
+          <img class="card-img-top img-small" src="img/hey_you.png" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-white">R$: 400.</p>
+          </div>
+        <div class="star">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+        </div>
+        </div>
+        <div class="card bg-dark" style="width: 18rem;">
+          <img class="card-img-top img-small" src="img/hey_you.png" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text text-white">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text text-white">R$: 400.</p>
+          </div>
+        <div class="star">
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star checked"></span>
+          <span class="fa fa-star"></span>
+        </div>
+        </div>
+      </div>
+
+        <footer>
+          <div class="container-fluid text-white">
+            <div class="linha d-flex justify-content-between flex-wrap">
+              <div class="coluna pagamentos mb-4"><h4>Payment methods</h4>
+                  <a href="#"><i class="fa-brands fa-cc-visa"></i></a>
+                  <a href="#"><i class="fa-brands fa-bitcoin"></i></a>
+                  <a href="#"><i class="fa-brands fa-cc-mastercard"></i></a>
+                  <a href="#"><i class="fa-brands fa-cc-paypal"></i></a>
+              </div>
+              <div class="coluna mb-4">
+                <h4>Lets be social</h4>
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </ul>
+              </div>
+              <div class="coluna mb-4">
+                <h4>Quick Links</h4> 
+                  <p><a href="#">Help</a></p>
+                  <p><a href="#">Shipping Policy</a></p>
+                  <p><a href="#">Cancelation & Returns</a></p>
+                  <p><a href="#">FAQ</a></p>
+                  <p><a href="#">Privacy Policy</a></p>
+                  <p><a href="#">Disclaimer</a></p>
+                </ul>
+              </div>
+              <div class="coluna mb-4">
+                <h4>Contact us!</h4>
+                  <p><a href="#"><i class="fa-solid fa-envelope"></i> iwork@pucminas.br</a></p>
+                  <p><i class="fa-solid fa-phone"></i> <b>0500 2023 007</b></p>
+                </div>
+            </div>
+          </div>  
+          <div class="container-fluid bg-blue text-center text-white"><i class="fa-regular fa-copyright"></i> 2023 iWork</div>
+        </footer>
+
+
+  
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e601ab8f9a.js" crossorigin="anonymous"></script>
+  </body>
+</html>
