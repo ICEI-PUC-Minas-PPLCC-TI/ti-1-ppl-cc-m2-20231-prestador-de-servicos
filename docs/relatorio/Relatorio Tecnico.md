@@ -372,7 +372,7 @@ Em resumo, nossa metodologia de trabalho foi baseada nas metodologias ágeis, co
 |Editor de código  | Visual Studio Code |  https://code.visualstudio.com/ | 
 |Processo de Design Thinking e de diagramação  | Miro |  https://miro.com/app/board/uXjVMYCYaRE=/ | 
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
+|Hospedagem do site | vercel |  vercel.app | 
 |Protótipo Interativo | MavelApp ou Figma | https://www.figma.com/file/96YK0f7qseCg6YKHpbrjjt/TI-wireframe?node-id=0-1&t=2ERmmI9iGHKDw38U-0 | 
 
 > Liste as ferramentas empregadas no desenvolvimento do
