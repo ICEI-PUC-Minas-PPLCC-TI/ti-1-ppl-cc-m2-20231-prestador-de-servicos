@@ -266,12 +266,19 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 >
 > **Exemplo**:
 > 
-> ![Exemplo de UserFlow](images/userflow.jpg)
+> ![Exemplo de UserFlow](images/conexoes.png)
 
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
+<p>Landing page com informações e cards sobre prestadores de serviço, incluindo os filtros<p>
+<img src="images/desktop1.png">
+<img src="images/desktop2.png">
+<p>Versao mobile responsiva</p>
+<img src="images/mobile.png">
+<p>Tela intuitiva de login e registro</p>
+<img src="images/login.png">
+<img src="images/register.png">
 
 > Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
 > estrutura de um site web e seu relacionamentos entre suas

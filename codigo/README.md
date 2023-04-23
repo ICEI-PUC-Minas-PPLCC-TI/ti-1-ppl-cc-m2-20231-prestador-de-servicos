@@ -5,3 +5,5 @@ Em progresso..
 - `src`
   - `img`
   - `scripts`
+  - `.css`
+- `.html`
