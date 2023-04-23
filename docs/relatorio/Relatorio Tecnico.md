@@ -324,7 +324,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+| Membro  | Pessoa              | Tarefa |
+|-----------|-------------------------|---------------|
+| 1 | Henrique Oliveira | Tarefa 1 | 
+| 2 | Gabriel Jota | Tarefa 2 | 
+| 3 | Antonio Neto | Tarefa 3 | 
+| 4 | Arthur Lira | Tarefa 4 | 
+| 5 | Andre | Tarefa 5 | 
 
 > Apresente a divisão de papéis e tarefas entre os membros do grupo.
 >
@@ -339,10 +345,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinking  | Miro |  https://miro.com/XXXXXXX | 
-|Repositório de código | GitHub | https://github.com/XXXXXXX | 
+|Processo de Design Thinking  | Miro |  https://miro.com/app/board/uXjVMYCYaRE=/ | 
+|Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos | 
 |Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+|Protótipo Interativo | MavelApp ou Figma | https://www.figma.com/file/96YK0f7qseCg6YKHpbrjjt/TI-wireframe?node-id=0-1&t=2ERmmI9iGHKDw38U-0 | 
 
 >
 > Liste as ferramentas empregadas no desenvolvimento do
