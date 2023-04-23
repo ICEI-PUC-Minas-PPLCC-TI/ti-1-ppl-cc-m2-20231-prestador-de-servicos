@@ -249,7 +249,20 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
+A solução do iWork apresenta diversas interfaces projetadas de forma a atender os requisitos funcionais, não funcionais e histórias de usuário do projeto. A página inicial do site é um ponto de partida para os usuários, e inclui um campo de busca, categorias de serviços, links para páginas de registro e login.
+
+As páginas de busca de serviços foram elaboradas para permitir que os usuários filtrem os resultados por categoria de serviço, preço, avaliação, entre outros critérios. Isso atende ao requisito funcional de busca de serviços, além de ser uma forma de melhorar a experiência do usuário.
+
+As páginas de perfil do prestador de serviço são outro ponto importante do site, pois exibem informações como descrição do serviço, fotos, avaliações e opções de contato. Essa interface foi projetada de forma a atender ao requisito funcional de cadastro de prestadores e clientes, além de ser uma forma de fornecer informações detalhadas aos clientes.
+
+As páginas de avaliação de serviços permitem que os usuários avaliem e comentem sobre os serviços prestados pelos prestadores cadastrados no site. Isso atende ao requisito não funcional de confiabilidade, já que os usuários podem ver o quão confiável um serviço é antes de requisitá-lo, evitando fraudes de ambos os lados.
+
+Além disso, a segurança e confiança são alcançados por meio de um sistema de login confiável, que também é importante para que fraudes sejam evitadas.
+As páginas de registro e login são necessárias para que os usuários possam se cadastrar e acessar suas contas para gerenciar informações de perfil, serviços oferecidos e solicitações de serviço. Essa interface foi projetada de forma a atender ao requisito funcional de cadastro de usuários e gerenciamento de informações pessoais.
+
+Adicionalmente, visto que as personas incluem pessoas de qualquer idade acima de 18 anos, incluindo desde jovens adultos até idosos, é oferecida uma interface simples, minimalista e universal, fazendo com que qualquer um desses públicos possam usar o serviço com facilidade.
+
+Por fim, as interfaces foram elaboradas com base em personas que representam as necessidades e expectativas dos diferentes tipos de usuários da plataforma (prestadores e clientes). Dessa forma, a interface do prestador de serviço foi projetada para incluir informações detalhadas sobre o serviço oferecido, enquanto a interface do cliente foi projetada para facilitar a busca e contratação de serviços. Além disso, as interfaces foram pensadas de forma a serem escaláveis, permitindo que, mesmo com uma grande quantidade de serviços cadastrados, seja possível os buscar e visualizar normalmente.
 
 > Apresente as principais interfaces da solução. Discuta como 
 > foram elaboradas de forma a atender os requisitos funcionais, não
