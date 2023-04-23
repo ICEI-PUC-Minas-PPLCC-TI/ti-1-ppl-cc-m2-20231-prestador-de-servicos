@@ -166,10 +166,15 @@ O público-alvo principal da aplicação se trata principalmente de qualquer pes
 
 Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+| PERSONA                | FUNCIONALIDADE                                      | MOTIVO/VALOR                                                            |
+|-----------------------|-----------------------------------------------------|-------------------------------------------------------------------------|
+| Cliente com pouco tempo | Pesquisar serviços de forma rápida e eficiente     | Economizar tempo e encontrar rapidamente o serviço desejado             |
+| Cliente detalhista     | Filtros de busca avançados                          | Encontrar serviços específicos que atendam às suas necessidades          |
+| Prestador de serviço   | Gerenciar informações de perfil e serviços oferecidos | Manter informações atualizadas para atrair mais clientes                |
+| Administrador          | Gerenciar usuários e serviços                        | Manter a plataforma organizada e funcionando corretamente                |
+| Cliente                | Avaliar os serviços prestados                       | Influenciar outros usuários na escolha de serviços e incentivar melhorias |
+| Cliente                | Comunicar-se facilmente com o prestador de serviço   | Tirar dúvidas, obter informações adicionais e contratar serviços          |
+| Prestador de serviço   | Receber notificações sobre solicitações de serviço   | Não perder oportunidades de negócios e gerenciar sua agenda               |
 
 > Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
@@ -233,10 +238,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
+|ID| Restrições de tempo para o desenvolvimento e lançamento do site                           |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| Concorrência com outras plataformas de prestação de serviços semelhantes que possam surgir |
+|02| Possíveis restrições regulatórias ou legais que possam afetar a operação do site |
+|03| Limitações técnicas que possam afetar a escalabilidade e desempenho do site |
+|04| Limitações na disponibilidade de prestadores de serviço em determinadas regiões |
 
 
 > Enumere as restrições à sua solução. Lembre-se de que as restrições
@@ -271,7 +278,7 @@ Por fim, as interfaces foram elaboradas com base em personas que representam as 
 
 ## User Flow
 
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
+![UserFlow](images/user.png)
 
 > Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
 > mapear todo fluxo de telas do site ou app. Essa técnica funciona
@@ -282,10 +289,6 @@ Por fim, as interfaces foram elaboradas com base em personas que representam as 
 > - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
 > - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
 > - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
->
-> **Exemplo**:
-> 
-> ![Exemplo de UserFlow](images/conexoes.png)
 
 
 ## Wireframes
@@ -358,12 +361,12 @@ Por fim, as interfaces foram elaboradas com base em personas que representam as 
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinking  | Miro |  https://miro.com/app/board/uXjVMYCYaRE=/ | 
+|Editor de código  | Visual Studio Code |  https://code.visualstudio.com/ | 
+|Processo de Design Thinking e de diagramação  | Miro |  https://miro.com/app/board/uXjVMYCYaRE=/ | 
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos | 
 |Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
 |Protótipo Interativo | MavelApp ou Figma | https://www.figma.com/file/96YK0f7qseCg6YKHpbrjjt/TI-wireframe?node-id=0-1&t=2ERmmI9iGHKDw38U-0 | 
 
->
 > Liste as ferramentas empregadas no desenvolvimento do
 > projeto, justificando a escolha delas, sempre que possível.
 > 
@@ -394,7 +397,8 @@ hospedagem do repositório upstream. O projeto seguirá a convenção seguinte p
 - unstable: versão já testada do software, porém instável
 - feature-test: versão em testes do software
 - dev: versão de desenvolvimento do software
-- old: versão antiga do software como fallback\
+- old: versão antiga do software como fallback
+
 Quanto à gerência de issues, o projeto adota a seguinte convenção para etiquetas:
 - bugfix: uma funcionalidade encontra-se com problemas
 - enhancement: uma funcionalidade precisa ser melhorada
