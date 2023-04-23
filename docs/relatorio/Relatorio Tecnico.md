@@ -190,16 +190,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|Cadastro de usuários| O site deve permitir que os usuários se cadastrem e criem perfis para que possam encontrar e oferecer serviços | ALTA | 
+|Busca de serviços| O site deve ter uma ferramenta de busca que permita aos usuários encontrar serviços específicos com base em palavras-chave ou localização | MÉDIA |
+|Avaliação de prestadores de serviços| O site deve permitir que os usuários avaliem e classifiquem os prestadores de serviço com base em sua experiência | MÉDIA |
+|Agendamento de serviços| O site deve ter um sistema de agendamento que permita aos usuários agendar serviços com os prestadores de serviço | MÉDIA |
+|Pagamento Online| O site deve ter um sistema de pagamento seguro e confiável para que os usuários possam pagar pelos serviços contratados | MÉDIA |
+
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|Desempenho| O site deve ser capaz de lidar com um grande número de usuários simultâneos sem diminuir sua velocidade ou experiência do usuário | MÉDIA | 
+|Usabilidade| O site deve ser fácil de usar e acessível a todos os usuários, independentemente de sua experiência em tecnologia |  BAIXA | 
+|Escalabilidade| O site deve ser capaz de se adaptar a um grande número de usuários e fornecer recursos suficientes para atender à demanda |  BAIXA | 
+|Confiabilidade| O site deve ser confiável e estar disponível para os usuários sempre que precisarem |  BAIXA | 
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
 > solução. Classifique esses requisitos em dois grupos:
