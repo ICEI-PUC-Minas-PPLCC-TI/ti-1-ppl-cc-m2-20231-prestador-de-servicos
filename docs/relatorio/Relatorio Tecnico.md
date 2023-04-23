@@ -394,7 +394,7 @@ hospedagem do repositório upstream. O projeto seguirá a convenção seguinte p
 - unstable: versão já testada do software, porém instável
 - feature-test: versão em testes do software
 - dev: versão de desenvolvimento do software
-- old: versão antiga do software como fallback
+- old: versão antiga do software como fallback\
 Quanto à gerência de issues, o projeto adota a seguinte convenção para etiquetas:
 - bugfix: uma funcionalidade encontra-se com problemas
 - enhancement: uma funcionalidade precisa ser melhorada
