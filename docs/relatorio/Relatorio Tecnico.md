@@ -89,7 +89,7 @@ Queremos facilitar a vida das pessoas na hora de encontrar algum serviço. Se vo
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A frustração de pessoas com a falta de conexão entre cliente e prestadores de serviços caseiros como eletricistas, pedreiros ou motoristas particulares tem sido uma questão sem resolução há muito tempo. Um analgésico para esse problema comumente feito pelos próprios prestadores é a utilização de cartazes e anúncios em torno da cidade onde moram, como em postes ou paredes. Entretanto, é claro o quão inefetivo esse método é, seja pela falta de clientes que chegam a entrar em contato com esse prestador, seja pela falta de confiança ou por simplesmente não encontrar o serviço necessitado.
 
 > Descreva a importância ou a motivação para trabalhar com esta aplicação
 > que você escolheu. Indique as razões pelas quais você escolheu seus
@@ -105,7 +105,7 @@ Queremos facilitar a vida das pessoas na hora de encontrar algum serviço. Se vo
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O público-alvo principal da aplicação se trata principalmente de qualquer pessoa acima da faixa dos 18 anos de idade. Seja o cliente um homem em busca de ajuda com um serviço elétrico de sua casa até uma senhora de idade em busca de um conserto ou obra mais complexa, o prestadores de serviço do iWork poderão cobrir uma gama de serviços ampla e diversa.
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
@@ -164,7 +164,7 @@ Queremos facilitar a vida das pessoas na hora de encontrar algum serviço. Se vo
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
@@ -333,7 +333,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
+|Processo de Design Thinking  | Miro |  https://miro.com/XXXXXXX | 
 |Repositório de código | GitHub | https://github.com/XXXXXXX | 
 |Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
 |Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
