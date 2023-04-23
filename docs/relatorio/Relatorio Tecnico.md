@@ -105,7 +105,7 @@ A frustração de pessoas com a falta de conexão entre cliente e prestadores de
 
 ## Público-Alvo
 
-O público-alvo principal da aplicação se trata principalmente de qualquer pessoa acima da faixa dos 18 anos de idade. Seja o cliente um homem em busca de ajuda com um serviço elétrico de sua casa até uma senhora de idade em busca de um conserto ou obra mais complexa, o prestadores de serviço do iWork poderão cobrir uma gama de serviços ampla e diversa.
+Qualquer pessoa acima da faixa dos 18 anos de idade. Seja o cliente um homem em busca de ajuda com um serviço elétrico de sua casa ou uma senhora de idade em busca de um conserto ou obra mais complexa, os prestadores de serviço do iWork poderão cobrir uma gama de serviços ampla e diversa.
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
@@ -132,7 +132,9 @@ O público-alvo principal da aplicação se trata principalmente de qualquer pes
 
 ## Personas, Empatia e Proposta de Valor
 
-......  COLOQUE AQUI O SEU TEXTO ......
+<img src="images/persona1.png">
+<img src="images/persona2.png">
+<img src="images/persona3.png">
 
 
 > Relacione as personas identificadas no seu projeto, os respectivos mapas de empatia e 
@@ -151,15 +153,7 @@ O público-alvo principal da aplicação se trata principalmente de qualquer pes
 > - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
 > - [Canvas da Proposta de Valor](https://analistamodelosdenegocios.com.br/canvas-da-proposta-de-valor/)
 > 
-> 
-> **Exemplo de Persona**
-> 
-> ![Exemplo de Persona](images/persona.png)
-> 
 > Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
->
-> **Exemplo de Proposta de Valor**
-> ![Exemplo da Proposta de Valor](images/proposta_valor.png)
 
 
 ## Histórias de Usuários
@@ -168,8 +162,8 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Procurador de serviços  | Login, ver prestadores           | Procurar um serviço               |
+|Prestador de serviços       | Login, ver buscadores                 | Prestar um serviço |
 
 > Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
