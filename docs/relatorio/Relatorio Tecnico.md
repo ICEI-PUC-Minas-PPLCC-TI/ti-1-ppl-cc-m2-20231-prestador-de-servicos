@@ -191,10 +191,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |Cadastro de usuários| O site deve permitir que os usuários se cadastrem e criem perfis para que possam encontrar e oferecer serviços | ALTA | 
-|Busca de serviços| O site deve ter uma ferramenta de busca que permita aos usuários encontrar serviços específicos com base em palavras-chave ou localização | MÉDIA |
+|Busca de serviços| O site deve ter uma ferramenta de busca que permita aos usuários encontrar serviços específicos com base em palavras-chave ou localização | ALTA |
 |Avaliação de prestadores de serviços| O site deve permitir que os usuários avaliem e classifiquem os prestadores de serviço com base em sua experiência | MÉDIA |
 |Agendamento de serviços| O site deve ter um sistema de agendamento que permita aos usuários agendar serviços com os prestadores de serviço | MÉDIA |
-|Pagamento Online| O site deve ter um sistema de pagamento seguro e confiável para que os usuários possam pagar pelos serviços contratados | MÉDIA |
+|Pagamento Online| O site deve ter um sistema de pagamento seguro e confiável para que os usuários possam pagar pelos serviços contratados | ALTA |
 
 
 
@@ -202,10 +202,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|Desempenho| O site deve ser capaz de lidar com um grande número de usuários simultâneos sem diminuir sua velocidade ou experiência do usuário | MÉDIA | 
-|Usabilidade| O site deve ser fácil de usar e acessível a todos os usuários, independentemente de sua experiência em tecnologia |  BAIXA | 
+|Desempenho| O site deve ser capaz de lidar com um grande número de usuários simultâneos sem diminuir sua velocidade ou experiência do usuário | ALTA | 
+|Usabilidade| O site deve ser fácil de usar e acessível a todos os usuários, independentemente de sua experiência em tecnologia |  M | 
 |Escalabilidade| O site deve ser capaz de se adaptar a um grande número de usuários e fornecer recursos suficientes para atender à demanda |  BAIXA | 
-|Confiabilidade| O site deve ser confiável e estar disponível para os usuários sempre que precisarem |  BAIXA | 
+|Confiabilidade| O site deve ser confiável e estar disponível para os usuários sempre que precisarem |  ALTA | 
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
 > solução. Classifique esses requisitos em dois grupos:
