@@ -124,7 +124,13 @@ O público-alvo principal da aplicação se trata principalmente de qualquer pes
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Nesta parte do documento, serão abordadas as técnicas e ferramentas utilizadas para especificar o projeto do iWork. A primeira etapa foi a criação de personas, que representam os diferentes tipos de usuários da plataforma e suas necessidades e expectativas. Em seguida, foi realizada a técnica de empatia para entender melhor as personas e seus comportamentos. A proposta de valor também foi definida, destacando os principais benefícios do iWork para os usuários.
+
+A técnica de histórias de usuários foi utilizada para descrever as diferentes interações que os usuários terão com o sistema e as funcionalidades necessárias para atender às suas necessidades. Essas histórias de usuários foram usadas como base para definir os requisitos funcionais do sistema, que descrevem as principais funcionalidades que o iWork deve ter para atender às necessidades dos usuários.
+
+Além disso, foram definidos os requisitos não funcionais, que descrevem as características e atributos do sistema que não estão diretamente relacionados às funcionalidades, mas que são importantes para garantir a qualidade do serviço prestado. Também foram identificadas as restrições do projeto, como prazos, orçamento e tecnologias disponíveis.
+
+No geral, as técnicas e ferramentas utilizadas para especificar o projeto do iWork incluem a criação de personas, a técnica de empatia, a definição da proposta de valor, a elaboração de histórias de usuários, a definição de requisitos funcionais e não funcionais e a identificação das restrições do projeto.
 
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
@@ -208,7 +214,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |Desempenho| O site deve ser capaz de lidar com um grande número de usuários simultâneos sem diminuir sua velocidade ou experiência do usuário | ALTA | 
-|Usabilidade| O site deve ser fácil de usar e acessível a todos os usuários, independentemente de sua experiência em tecnologia |  M | 
+|Usabilidade| O site deve ser fácil de usar e acessível a todos os usuários, independentemente de sua experiência em tecnologia |  MÉDIA | 
 |Escalabilidade| O site deve ser capaz de se adaptar a um grande número de usuários e fornecer recursos suficientes para atender à demanda |  BAIXA | 
 |Confiabilidade| O site deve ser confiável e estar disponível para os usuários sempre que precisarem |  ALTA | 
 
@@ -320,7 +326,15 @@ Por fim, as interfaces foram elaboradas com base em personas que representam as 
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O processo de trabalho adotado pelo grupo foi baseado nas metodologias ágeis, que se concentram na entrega de valor contínuo ao cliente e no trabalho em equipe colaborativo. Nossa equipe é composta por desenvolvedores, designers e gerentes de projeto. Cada membro da equipe teve um papel importante no processo de desenvolvimento e contribuiu para a entrega do protótipo inicial da aplicação.
+
+Nós adotamos o processo de Design Thinking para desenvolver uma compreensão fundamental dos requisitos do cliente e criar uma solução para o usuário. Durante essa fase, realizamos pesquisas com usuários e entrevistas para entender suas necessidades, preferências e dores principais que mais os afetam. A partir dessas informações, anotamos suas perspectivas e deixamos pontos principais que foram vistos mais de uma vez ao longo do processo de pesquisa e entedimento para serem implementados no projeto final.
+
+Para implementar o Framework Scrum, dividimos o projeto em sprints com duração de cerca de duas semanas. No início de cada sprint, realizamos uma reunião de planejamento onde definimos as tarefas que seriam concluídas durante o sprint e atribuímos essas tarefas aos membros da equipe.
+
+Para gestão de configuração do projeto, utilizamos o GitHub. Através do GitHub, conseguimos controlar e gerenciar as mudanças no código e nos arquivos do projeto, bem como a apresentação de abertura feita no dia 20/04/23. Também utilizamos outras ferramentas on-line para acompanhamento do andamento do projeto, como o Miro, onde compartilhamos e contribuímos para a ideação de ferramentas que seriam indispensáveis para o nosso site.
+
+Em resumo, nossa metodologia de trabalho foi baseada nas metodologias ágeis, com a implementação do Framework Scrum e do processo de Design Thinking. Utilizamos o GitHub para gestão de configuração do projeto e outras ferramentas on-line para acompanhamento do andamento do projeto, execução das tarefas e status de desenvolvimento da aplicação.
 
 > Nesta parte do documento, você deve apresentar a metodologia 
 > adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
