@@ -138,9 +138,9 @@ No geral, as técnicas e ferramentas utilizadas para especificar o projeto do iW
 
 ## Personas, Empatia e Proposta de Valor
 
-<img src="images/persona1.png">
-<img src="images/persona2.png">
-<img src="images/persona3.png">
+<img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/persona1.png">
+<img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/persona2.png">
+<img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/persona3.png">
 
 
 > Relacione as personas identificadas no seu projeto, os respectivos mapas de empatia e 
@@ -278,7 +278,7 @@ Por fim, as interfaces foram elaboradas com base em personas que representam as 
 
 ## User Flow
 
-![UserFlow](images/user.png)
+![UserFlow](https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/user.png)
 
 > Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
 > mapear todo fluxo de telas do site ou app. Essa técnica funciona
@@ -294,13 +294,13 @@ Por fim, as interfaces foram elaboradas com base em personas que representam as 
 ## Wireframes
 
 <p>Landing page com informações e cards sobre prestadores de serviço, incluindo os filtros<p>
-<img src="images/desktop1.png">
-<img src="images/desktop2.png">
+<img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/desktop1.png">
+<img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/desktop2.png">
 <p>Versao mobile responsiva</p>
-<img src="images/mobile.png">
+<img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/mobile.png">
 <p>Tela intuitiva de login e registro</p>
-<img src="images/login.png">
-<img src="images/register.png">
+<img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/login.png">
+<img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/register.png">
 
 > Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
 > estrutura de um site web e seu relacionamentos entre suas
@@ -315,7 +315,7 @@ Por fim, as interfaces foram elaboradas com base em personas que representam as 
 > 
 > **Exemplo**:
 > 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
+> ![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/wireframe-example.png)
 
 
 # Metodologia
@@ -411,7 +411,7 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
 - bugfix: uma funcionalidade encontra-se com problemas
 - enhancement: uma funcionalidade precisa ser melhorada
 - feature: uma nova funcionalidade precisa ser introduzida
-![Exemplo de Wireframe](images/versoes.png)
+![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/versoes.png)
 
 > **Links Úteis**:
 > - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
@@ -452,7 +452,7 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
 > 
 > **Exemplo do diagrama de Arquitetura**:
 > 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
+> ![Exemplo de Arquitetura](https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/arquitetura-exemplo.png)
 
 
 # Avaliação da Aplicação
