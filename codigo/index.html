@@ -16,9 +16,9 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
-    <script src="scripts/filtro.js"></script>
+    <script src="src/scripts/filtro.js"></script>
   </head>
-  <body class="bg-dark">
+  <body class="bg-white">
     
     <nav class="navbar navbar-expand-lg navbar-light bg-dark text-white mb-4">
       <div class="container-fluid">
@@ -30,16 +30,16 @@
           <div class="d-flex flex-column align-items-start">
           <form class="d-flex me-auto">
             <input class="form-control me-2" type="search" placeholder="Search for a service" aria-label="Search">
-            <button id="search" class="btn btn-outline-success" type="submit">Search</button>
+            <button onclick="search()" id="search" class="btn btn-outline-success" type="submit">Search</button>
           </form>
         </div>
         <div class="d-flex flex-column align-items-start">
           <ul class="navbar-nav">
             <li class="nav-item buttom">
-              <a class="nav-link" href="login.html">Sign in</a>
+              <a class="nav-link" href="#">Sign in</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="register.html">Register</a>
+              <a class="nav-link" href="#">Register</a>
             </li>
           </ul>
           </div>
@@ -48,62 +48,57 @@
       </div>
     </nav>
 
-      <div class="container-fluid mb-4">
-        <div id="wrapper1" class="row bg-dark text-white d-flex">
-          <div class="col-lg-3">
-            <div class="servicos w-100 h-100 d-flex flex-column align-items-center p-5">
-              <p><b>Service/Price filter</b></p>
-              <p>Find the right service for the right price!</p>
-              <form>
-                <select class="form-select type mb-2">
-                  <option disabled selected hidden>TYPE</option>
-                  <option>Dev</option>
-                  <option>Pedreiro</option>
-                </select>
-              </form>
-              <form>
-                <select class="form-select city mb-2">
-                  <option disabled selected hidden>CITY</option>
-                  <option>MG/bh</option>
-                  <option>MG/sabará</option>
-                </select>
-              </form>
-              <form>
-                <select class="form-select category mb-2">
-                  <option disabled selected hidden>CATEGORY</option>
-                  <option>24/7</option>
-                  <option>Weekday</option>
-                </select>
-              </form>
-              <form>
-                <select class="form-select price mb-2">
-                  <option disabled selected hidden>PRICE</option>
-                  <option>50</option>
-                  <option>100</option>
-                  <option>200</option>
-                  <option>300</option>
-                  <option>400</option>
-                  <option>500</option>
-                  <option>1000</option>
-                </select>
-              </form>
-              <button style="width:12em;" id="look" class="btn bg-dark border text-white"><i class="fa fa-search" aria-hidden="true"></i> Search </button>
-            </div>
-          </div>
+    <div class="servicos w-100 h-100 d-flex flex-column align-items-center p-5">
+      <p><b>Service/Price filter</b></p>
+      <p>Find the right service for the right price!</p>
+      <form>
+        <select class="form-select type mb-2">
+          <option disabled="" selected="" hidden="">TYPE</option>
+          <option>Dev</option>
+          <option>Pedreiro</option>
+          <option>Dj</option>
+          <option>Faxineira</option>
+          <option>Musico</option>
+          <option>Designer</option>
+          <option>Eletricista</option>
+          <option>Jardineiro</option>
+          <option>Chef</option>
+          <option>Tradutor</option>
+          <option>Escritor</option>
+        </select>
+      </form>
+      <form>
+        <select class="form-select ava mb-2">
+          <option disabled="" selected="" hidden="">AVAILABILITY</option>
+          <option>Available</option>
+          <option>Unavailable</option>
+        </select>
+      </form>
+      <form>
+        <select class="form-select category mb-2">
+          <option disabled="" selected="" hidden="">CATEGORY</option>
+          <option>24/7</option>
+          <option>Weekday</option>
+        </select>
+      </form>
+      <button style="width:12em;" id="look" class="btn bg-dark border text-white"><i class="fa fa-search" aria-hidden="true"></i> Search </button>
+    </div>
+
+    <main class="align-center">
+      <div class="container-fluid">
+        <div class="d-flex justify-content-between align-items-center">
+        <div class="pcards d-flex flex-wrap">
+
         </div>
       </div>
-
-      <main>
-      <div class="container-fluid d-flex flex-wrap justify-content-around">
-        <div class="pcards"></div>
     </main>
+
+    <div id="results-container"></div>
 
 
       <footer>  
-        <div class="container-fluid bg-blue text-center text-white"><i class="fa-regular fa-copyright"></i> 2023 iWork</div>
+        <div class="container-fluid bg-blue text-center text-white"><i class="fa-regular fa-copyright"></i>   iWork</div>
       </footer>
-
-
   
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

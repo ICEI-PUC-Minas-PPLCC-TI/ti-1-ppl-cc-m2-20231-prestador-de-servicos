@@ -1,7 +1,7 @@
 html{
   margin: 0;
   padding: 0;
-  background-color: #222;
+  background-color: #333;
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
@@ -10,10 +10,13 @@ html{
   background:#07ABD9;
 }
 
-body{
-  margin: 15px;
-  border:1px solid #07ABD9;
-  border-radius: 2px;
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
 }
 
 .navbar-light .navbar-title {
@@ -104,16 +107,21 @@ input[type=search]:focus{
   width: 10em;
 }
 .card{
-  border: 1px solid #07ABD9;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 1em;
   margin-bottom: 1em;
+  flex-grow: 1;
+  border:1px solid #07ABD9;
+}
+.card-text {
+  color:#111;
 }
 .fa-star{
   color:#444;
 }
+
 .checked{
   color: #07ABD9 !important;
 }
