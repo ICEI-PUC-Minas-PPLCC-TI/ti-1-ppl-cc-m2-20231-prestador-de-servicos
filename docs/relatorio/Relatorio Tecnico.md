@@ -428,6 +428,8 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
 
 ## Tecnologias Utilizadas
 
+As tecnologias utilizadas para a elaboração do projeto foi a criação de uma webpage completamente funcional, que permite com que realizemos testes e simulações mostrando situações hipotéticas em que foi realizada a conexão entre o prestador de serviço em busca de um trabalho e um possível cliente que procura a resolução de seu problema por meio do profissional contratado. A página usa, em sua maioria, as linguagens de programação HTML, CSS e JavaScript, bem como seu servidor para a hospedagem na nuvem.
+
 ......  COLOQUE AQUI O SEU TEXTO ......
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
@@ -439,7 +441,7 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
 > conduzida, por onde ela passa até retornar uma resposta ao usuário.
 > 
 > Inclua os diagramas de User Flow, esboços criados pelo grupo
-> (stoyboards), além dos protótipos de telas (wireframes). Descreva cada
+> (storyboards), além dos protótipos de telas (wireframes). Descreva cada
 > item textualmente comentando e complementando o que está apresentado
 > nas imagens.
 
