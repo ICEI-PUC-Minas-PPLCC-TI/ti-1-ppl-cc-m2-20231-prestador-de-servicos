@@ -1,0 +1,510 @@
+*{
+    transition: all 0.5s ease-in-out;
+}
+@font-face {
+    font-family: "poppins";
+    src: url("./Poppins-Medium.ttf")
+}
+
+.navImg:first-of-type{
+    filter: grayscale(100%);
+}
+
+.estrelasImg{
+    width: 200px;
+    mix-blend-mode: multiply;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+    background-color: #f1f1f1;
+    color: #000;
+    overflow-x: hidden;
+}
+
+#service{
+    background-color: #ffffff;
+    padding: 50px 0;
+    width: 90vw;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+#service{
+    #imgDiv{
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 5%;
+    }
+    #imgDiv{
+        #mainImg{
+            width: 100%;
+            aspect-ratio: 16/9;
+            object-fit: contain;
+            border: 3px solid grey;
+            padding: 5px;
+        }
+        #miniImgs{
+            width: 100%;
+            display: flex;
+            margin-top: 20px;
+        }
+        #miniImgs{
+            .miniImg{
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+                border: 3px solid grey;
+                margin-right: 30px;
+                transition: border 0s;
+            }
+            .miniImg:first-of-type{
+                border: 5px solid #000;
+            }
+        }
+    }
+
+    #info{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding: 0% 3% 3% 3%;
+        justify-content: center;
+    }
+    #info{
+        #title{
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        #description{
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }	
+        #price{
+            font-size: 2rem;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        #redirectButton{
+            width: 50%;
+            height: 50px;
+            font-size: 1.5rem;
+            background-color: #f5f5f5;
+            border: 2px solid #000;
+            border-radius: 5px;
+            cursor: pointer;
+            align-self: center;
+            margin-top: 10px;
+        }
+        #redirectButton:hover{
+            background-color: #000;
+            color: #fff;
+        }
+    }
+
+}
+
+
+#more{
+    background-color: #ffffff;
+    padding: 50px 0;
+    width: 90vw;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+#more{
+    #calendarDiv{
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 5%;
+    }
+    #calendarTitle{
+        font-size: 2rem;
+    }
+    #calendarToolbox{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+    .calendarBtn{
+        width: 30%;
+        height: 50px;
+        font-size: 1.5rem;
+        background-color: #f5f5f5;
+        border: 2px solid #000;
+        border-radius: 5px;
+        cursor: pointer;
+        align-self: center;
+        margin-top: 10px;
+    }
+    .calendarBtn:hover{
+        background-color: #000;
+        color: #fff;
+    }
+    #mesMostrado{
+        font-size: 1.5rem;
+    }
+    #calendar{
+        width: 100%;
+        margin-top: 20px;
+        border: 3px solid black;
+    }
+    #calendar{
+        #daysOfTheWeek{
+            width: 100%;
+            height: 30px;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: row;
+        }
+        #daysOfTheWeek{
+            .dayOfTheWeek{
+                width: calc(14.28% - 2px);
+                height: 100%;
+                border: 1px solid black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        #calendarDays{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        #calendarDays{
+            .calendarDay{
+                width: calc(14.28% - 2px);
+                aspect-ratio: 1/1;
+                border: 1px solid black;
+                display: flex;
+                flex-direction: column;
+                transition: all 0.1s ease-in-out;
+            }
+            .calendarDay:hover{
+                color: #fff;
+                background-color: #000;
+                cursor: pointer;
+            }
+            .unavailableDay{
+                background-color: #ccc !important;
+                cursor: not-allowed !important;
+                color: #000 !important;
+            }
+            .calendarDay{
+                .dayDisplay{
+                    margin-top: 5%;
+                    margin-left: 5%;
+                    font-size: 1.5rem;
+                }
+                .availableTimes{
+                    width: 100%;
+                    text-align: center;
+                    margin-top: 5%;
+                    font-size: 1.7rem;
+                }
+            }
+        }
+    }
+    #dayInfo{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding: 0% 3% 3% 3%;
+        justify-content: center;
+    }
+    #dayInfo{
+        #dayInfoTitle{
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        #horariosDisponiveis{
+            margin-bottom: 20px;
+        }
+        #horariosDisponiveis{
+            .horarioDisponivel{
+                width: 100%;
+                height: 50px;
+                font-size: 1.5rem;
+                background-color: #f5f5f5;
+                border: 2px solid #000;
+                border-radius: 5px;
+                cursor: pointer;
+                align-self: center;
+                margin-top: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .horarioDisponivel:hover{
+                background-color: #000;
+                color: #fff;
+            }
+            .horarioIndisponivel{
+                cursor: not-allowed;
+                background-color: #ccc;
+            }
+            .horarioIndisponivel:hover{
+                background-color: #ccc;
+                color: #000;
+            }
+        }
+        #hireDiv{
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #hireDiv{
+            #hirePrice{
+                font-size: 2rem;
+                margin-bottom: 20px;
+                font-weight: bold;
+            }
+            #hireTime{
+                font-size: 1.5rem;
+                margin-bottom: 20px;
+            }
+            .hireEndereco{
+                font-size: 1rem;
+                margin-bottom: 20px;
+                width: 90%;
+            }
+            #hireButton{
+                width: 50%;
+                height: 50px;
+                font-size: 1.5rem;
+                background-color: #f5f5f5;
+                border: 2px solid #000;
+                border-radius: 5px;
+                cursor: pointer;
+                align-self: center;
+                margin-top: 10px;
+            }
+            #hireButton:hover{
+                background-color: #000;
+                color: #fff;
+            }
+        }
+    }
+}
+
+dialog{
+    border: 0;
+    border-radius: 10px;
+    #ok{
+        width: 100%;
+        height: 50px;
+        font-size: 1.5rem;
+        background-color: #f5f5f5;
+        border: 2px solid #000;
+        border-radius: 5px;
+        cursor: pointer;
+        align-self: center;
+        margin-top: 10px;
+    }
+    #ok:hover{
+        background-color: #000;
+        color: #fff;
+    }
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    #service{
+        flex-direction: column;
+        align-items: center;
+        #imgDiv{
+            width: 90%;
+            margin-left: 0;
+            #mainImg{
+                width: 90%;
+                aspect-ratio: 1/1;
+                object-fit: contain;
+                border: 3px solid grey;
+                padding: 5px;
+            }
+            #miniImgs{
+                width: 100%;
+                display: flex;
+                margin-top: 20px;
+                overflow-x: scroll;
+                overflow-y: hidden;
+                white-space: nowrap;
+            }
+        }
+        #info{
+            width: 80%;
+            text-align: center;
+        }
+    }
+
+
+
+    #more{
+        flex-direction: column;
+        align-items: center;
+        #calendarDiv{
+            width: 81%;
+            margin: 0%;
+            #calendarToolbox{
+                .calendarBtn{
+                    width: 30%;
+                    font-size: 1rem;
+                }
+            }
+            #calendar{
+                #daysOfTheWeek{
+                    .dayOfTheWeek{
+                        font-size: 0.6rem;
+                    }
+                }
+                #calendarDays{
+                    .calendarDay{
+                        height: 50px;
+                        .dayDisplay{
+                            font-size: 0.7rem;
+                        }
+                        .availableTimes{
+                            font-size: 0.9rem;
+                        }
+                    }
+                }
+            }
+        }
+        #dayInfo{
+            width: 80%;
+            margin-top: 50px;
+            #dayInfoTitle{
+                font-size: 1.7rem;
+            }
+            #hireDiv{
+                width: 80%;
+                text-align: center;
+                #hirePrice{
+                    font-size: 1.3rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #service{
+        margin-top: 50px;
+    }
+    #service{
+        #imgDiv{
+            #mainImg{
+                width: 100%;
+                aspect-ratio: 2/1;
+                object-fit: contain;
+                border: 1px solid grey;
+                padding: 5px;
+            }
+            #miniImgs{
+                width: 100%;
+                display: flex;
+                margin-top: 20px;
+                overflow-x: scroll;
+                overflow-y: hidden;
+                white-space: nowrap;
+            }
+            #miniImgs{
+                .miniImg{
+                    width: 70px;
+                    height: 70px;
+                    object-fit: cover;
+                    border: 3px solid grey;
+                    margin-right: 30px;
+                    transition: border 0s;
+                }
+            }
+        }
+        #info{
+            margin-top: 30px;
+        }
+        #info{
+            #title{
+                font-size: 1.5rem;
+            }
+            #description{
+                font-size: 1rem;
+                max-height: 100px;
+                overflow-y: scroll;
+            }
+            .estrelasImg{
+                width: 120px;
+            }
+            #price{
+                font-size: 1.5rem;
+            }
+            #redirectButton{
+                width: 70%;
+                height: 50px;
+                font-size: 1rem;
+            }
+        }
+    }
+    #more{
+        #calendarDiv{
+            #calendarToolbox{
+                .calendarBtn{
+                    width: 25%;
+                    font-size: 0.8rem;
+                }
+                #mesMostrado{
+                    font-size: 1rem;
+                }
+            }
+        }
+        #dayInfo{    
+            #horariosDisponiveis{
+                .horarioDisponivel{
+                    width: 100%;
+                    height: 40px;
+                    font-size: 1.2rem;
+                }
+            }
+            #hireDiv{
+                margin-top: 10px;
+            }
+            #hireDiv{
+                #hireButton{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

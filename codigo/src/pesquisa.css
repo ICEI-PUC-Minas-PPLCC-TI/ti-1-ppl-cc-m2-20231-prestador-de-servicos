@@ -1,0 +1,422 @@
+@font-face {
+    font-family: "poppins";
+    src: url("./Poppins-Medium.ttf")
+}
+
+*{
+  transition: all 0.5s ease-in-out;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f1f1f1;
+    font-family: "poppins";
+}
+
+.estrelasImg{
+    width: 100px;
+    margin: 0px 0px;
+}
+
+
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#pesquisa{
+    width: 70%;
+    display: flex;
+    margin-top: 100px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: relative;
+}
+#pesquisa{
+    #pesquisaIn{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 2rem;
+        border-radius: 10px;
+        margin-right: 23px;
+        padding: 5px;
+    }
+    #pesquisaIn:focus{
+        border: 3px solid #616cff;
+        font-size: 2.3rem;
+    }
+    #pesquisaBtn{
+        border: 0px;
+        background: none;
+        cursor: pointer;
+    }
+    #pesquisaBtn{
+        #pesquisaImg{
+            width: 30px;
+        }
+    }
+}
+
+
+#searchResults{
+    position: absolute;
+    width: 50%;
+    top: 100%;
+    left: 25%;
+    opacity: 0;
+}
+#searchResults{
+    .searchResult{
+        width: 100%;
+        background-color: #fff;
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+    .searchResult:hover{
+        background-color: #bebebe;
+    }
+    .searchResult{
+        .searchResultImg{
+            width: 50px;
+            aspect-ratio: 1/1;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .searchResultName{
+            font-size: 1.5rem;
+            margin-left: 10px;
+        }
+        .searchResultPrice{
+            font-size: 1.3rem;
+            margin-left: 10px;
+        }
+    }
+}
+
+
+#searchDiv{
+    width: 50%;
+    min-width: fit-content;
+    display: flex;
+    margin-top: 100px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+#searchDiv{
+    #filterIcon{
+        width: 30px;    
+    }
+    #dashBetween{
+        margin-right: 10px;
+    }
+    .searchInput{
+        font-size: 1.3rem;
+        border: 1px solid #1925cc;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+    #searchBtn{
+        font-size: 1.3rem;
+        border: 1px solid #1925cc;
+        border-radius: 5px;
+        background-color: #fff;
+        color: #000;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+    #searchBtn:hover{
+        background-color: #1925cc;
+        color: #fff;
+    }
+}
+
+#centralDiv{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+}
+
+
+#categoriesDiv{
+    width: 15%;
+    height: fit-content;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 10px;
+    flex-direction: column;
+    margin-top: 30px;
+}
+#categoriesDiv{
+    #categoriesTitle{
+        font-size: 1.7rem;
+        width: 100%;
+        text-align: center;
+    }
+    #categories{
+        padding-left: 50px;
+    }
+    #categories{
+        #noCategory{
+            font-size: 1.5rem;
+            list-style: none;
+            color: #000;
+            text-decoration: none;
+        }
+        .categoryLink{
+            color: #000;
+            text-decoration: none;
+        }
+        .categoryLink:hover{
+            color: #1925cc;
+            text-decoration: underline;
+        }
+        .categorySelected{
+            color: #a4aaff;
+            text-decoration: underline;
+        }
+        .bigCategory{
+            font-size: 1.3rem;
+            margin: 10px 0px;
+        }
+        .bigCategory{
+            .bigCategoryList{
+                font-size: 1rem;
+            }
+            .bigCategoryList{
+                .category{
+                }
+                .category{
+                    .categoryLink{
+                        color: #000;
+                        text-decoration: none;
+                    }
+                    .categoryLink:hover{
+                        color: #1925cc;
+                        text-decoration: underline;
+                    }
+                    .categorySelected{
+                        color: #a4aaff;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#servicesDiv{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    width: 70%;
+    box-sizing: border-box;
+}
+
+#servicesDiv{
+    .service{
+        background-color: white;
+        border-radius: 10px;
+        width: 400px;
+        margin: 0px 50px;
+        margin-bottom: 50px;
+        cursor: pointer;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .service{
+        .serviceImg{
+            width: 100%;
+            aspect-ratio: 1/1;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            object-fit: cover;
+            object-position: 0% 10%;
+            transition: all 2.1s ease;
+        }
+        .serviceImg:hover{
+            object-position: 100% 100%;
+        }
+        .serviceInfo{
+            padding: 0px 10px;
+            box-sizing: border-box;
+        }
+        .serviceInfo{
+            .serviceName{
+                font-size: 1.7rem;
+                font-weight: bold;
+                margin: 10px 0px;
+            }
+            #separator{
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+            .servicePrice{
+                font-size: 1.3rem;
+                font-weight: bold;
+                margin: 10px 0px;
+                display: inline;
+            }
+            .serviceRating{
+                display: inline;
+                margin-left: 30%;
+            }
+            .serviceDescription{
+                font-size: 1rem;
+                margin: 10px 0px;
+                color: #5f5f5f;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1600px) {
+    #centralDiv{
+        flex-direction: column;
+    }
+    #categoriesDiv{
+        width: 50%;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        order: 2;
+    }
+    #servicesDiv{
+        width: 100%;
+        margin: 0px;
+        order: 1;
+    }
+    #searchResults{
+        width: 80%;
+        left: 10%;
+    }
+    
+}
+
+@media only screen and (max-width: 1200px) {
+    #searchDiv{
+        flex-direction: column;
+    }
+    #searchDiv{
+        .searchInput{
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        #dashBetween{
+            display: none;
+        }
+        #searchBtn{
+            margin-top: 10px;
+        }
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #pesquisa{
+        width: 90%;
+    }
+    #pesquisa{
+        #pesquisaIn{
+            font-size: 1.5rem;
+        }
+        #pesquisaIn:focus{
+            font-size: 1.7rem;
+        }
+    }
+    #searchResults{
+        .searchResult{
+            .searchResultName{
+                font-size: 1.3rem;
+            }
+            .searchResultPrice{
+                font-size: 1.1rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    #pesquisa{
+        width: 90%;
+        margin-top: 50px;
+    }
+    #pesquisa{
+        #pesquisaIn{
+            font-size: 1rem;
+        }
+        #pesquisaIn:focus{
+            font-size: 1.2rem;
+        }
+    }
+
+    #searchDiv{
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    #servicesDiv{
+        grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #centralDiv{
+        align-items: center;
+        margin-top: 70px;
+    }	
+    #servicesDiv{
+        .service{
+            width: 80%;
+            margin-bottom: 50px;
+        }
+    }
+    #categoriesDiv{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+
+    #searchResults{
+        width: 90%;
+        left: 5%;
+    }
+    #searchResults{
+        .searchResult{
+            .searchResultName{
+                font-size: 1.1rem;
+            }
+            .searchResultPrice{
+                font-size: 0.9rem;
+            }
+        }
+    }
+}

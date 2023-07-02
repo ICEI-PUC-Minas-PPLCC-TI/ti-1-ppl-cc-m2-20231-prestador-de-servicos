@@ -1,0 +1,43 @@
+#bubbleDiv{
+    position: fixed;
+    bottom: 30px;
+    right: 10%;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 20%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    z-index: 1000;
+    overflow: hidden;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bubbleDiv:hover{
+    background-color: #dfdfdf;
+}
+#bubbleDiv{
+    #bubbleImg{
+        width: 70%;
+        height: 70%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #bubbleDiv{
+        right: 5%;
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #bubbleDiv{
+        right: 5%;
+        width: 50px;
+        height: 50px;
+    }
+}

@@ -1,0 +1,640 @@
+@font-face {
+    font-family: "poppins";
+    src: url("./Poppins-Medium.ttf")
+}
+
+*{
+  transition: all 0.5s ease-in-out;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f1f1f1;
+    font-family: "poppins";
+}
+
+.estrelasImg{
+    width: 100px;
+    margin: 0px 0px;
+}
+
+
+#agendaDiv{
+    background-color: #ffffff;
+    padding: 50px 0;
+    width: 90vw;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+#agendaDiv{
+    #calendarDiv{
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 5%;
+    }
+    #calendarTitle{
+        font-size: 2rem;
+    }
+    #calendarToolbox{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+    .calendarBtn{
+        width: 30%;
+        height: 50px;
+        font-size: 1.5rem;
+        background-color: #f5f5f5;
+        border: 2px solid #000;
+        border-radius: 5px;
+        cursor: pointer;
+        align-self: center;
+        margin-top: 10px;
+    }
+    .calendarBtn:hover{
+        background-color: #000;
+        color: #fff;
+    }
+    #mesMostrado{
+        font-size: 1.5rem;
+    }
+    #calendar{
+        width: 100%;
+        margin-top: 20px;
+        border: 3px solid black;
+    }
+    #calendar{
+        #daysOfTheWeek{
+            width: 100%;
+            height: 30px;
+            border: 1px solid black;
+            display: flex;
+            flex-direction: row;
+        }
+        #daysOfTheWeek{
+            .dayOfTheWeek{
+                width: calc(14.28% - 2px);
+                height: 100%;
+                border: 1px solid black;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        #calendarDays{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        #calendarDays{
+            .calendarDay{
+                width: calc(14.28% - 2px);
+                aspect-ratio: 1/1;
+                border: 1px solid black;
+                display: flex;
+                flex-direction: column;
+                transition: all 0.1s ease-in-out;
+            }
+            .calendarDay:hover{
+                color: #fff;
+                background-color: #000;
+                cursor: pointer;
+            }
+            .unavailableDay{
+                background-color: #ccc !important;
+                cursor: not-allowed !important;
+                color: #000 !important;
+            }
+            .calendarDay{
+                .dayDisplay{
+                    margin-top: 5%;
+                    margin-left: 5%;
+                    font-size: 1.5rem;
+                }
+                .availableTimes{
+                    width: 100%;
+                    text-align: center;
+                    margin-top: 5%;
+                    font-size: 1.7rem;
+                }
+            }
+        }
+    }
+    #dayInfo{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding: 0% 3% 3% 3%;
+        justify-content: center;
+    }
+    #dayInfo{
+        #dayInfoTitle{
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        #horariosDisponiveis{
+            margin-bottom: 20px;
+        }
+        #horariosDisponiveis{
+            .horarioDisponivel{
+                width: 100%;
+                height: 50px;
+                font-size: 1.5rem;
+                background-color: #f5f5f5;
+                border: 2px solid #000;
+                border-radius: 5px;
+                cursor: pointer;
+                align-self: center;
+                margin-top: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .horarioDisponivel:hover{
+                background-color: #000;
+                color: #fff;
+            }
+            .horarioIndisponivel{
+                cursor: not-allowed;
+                background-color: #ccc;
+            }
+            .horarioIndisponivel:hover{
+                background-color: #ccc;
+                color: #000;
+            }
+        }
+        #serviceInfo{
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            background-color: #f5f5f5;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 50px;
+        }
+        #serviceInfo{
+            #titleServiceInfo{
+                font-size: 2rem;
+                margin-top: 30px;
+                margin-bottom: 10px;
+            }
+            #nomeConsumidor{
+                font-size: 1.2rem;
+                margin-bottom: 10px;
+            }
+            #enderecoConsumidor{
+                font-size: 1rem;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+#perfil{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 50px 0;
+}
+#perfil{
+    #perfilImgs{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-right: 1px dashed #000;
+    }
+    #perfilImgs{
+        #imgsDiv{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #imgsDiv{              
+            #addImgBtn{
+                width: 100px;
+                aspect-ratio: 1/1;
+                background-color: #696969;
+                color: #fff;
+                border:none;
+                cursor: pointer;
+                font-size: 2rem;
+                order: 999;
+            }
+            #addImgBtn:hover{
+                background-color: #3d3c3c;
+            }
+            .imgDiv{
+                width: 100px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 20px;
+                position: relative;
+            } 
+            .imgDiv:hover{
+                .trashImg{
+                    opacity: 1;
+                }
+            }
+            .imgDiv{
+                .perfilImg{
+                    width: 100px;
+                    aspect-ratio: 1/1;
+                    object-fit: cover;
+                    background-color: #696969;
+                    color: #fff;
+                    border:none;
+                    cursor: pointer;
+                }
+                .trashImg{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 80%;
+                    padding: 10%;
+                    aspect-ratio: 1/1;
+                    color: #fff;
+                    background-color: rgba(0,0,0,0.5);
+                    filter: invert(100%);
+                    border:none;
+                    cursor: pointer;
+                    font-size: 1.5rem;
+                    opacity: 0;
+                }
+            }
+        }
+    }
+    #perfilInfo{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #perfilInfo{
+        #perfilTitleTitle{
+            font-size: 1.5rem;
+        }
+        #perfilNewTitle{
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        #perfilDescTitle{
+            margin-bottom: 10px;
+        }
+        #perfilPrecoTitle{
+            margin-bottom: 0px;
+        }
+        #perfilDesc{
+            width: 90%;
+            text-align: center;
+        }
+        #perfilNewDesc{
+            border-radius: 5px;
+            font-size: 1rem;
+            resize: none;
+            width: 70%;
+            height: 5rem;
+        }
+        #perfilNewPreco{
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        #perfilSaveBtn{
+            height: 50px;
+            font-size: 1.2rem;
+            background-color: #f5f5f5;
+            border: 2px solid #000;
+            border-radius: 5px;
+            cursor: pointer;
+            align-self: center;
+            margin-top: 10px;
+        }
+        #perfilSaveBtn:hover{
+            background-color: #000;
+            color: #fff;
+        }
+    }
+}
+
+#semanaDiv{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 50px 0;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+}
+#semanaDiv{
+    #semanaTitle{
+        font-size: 2rem;
+    }
+    #semana{
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 20px;
+    }
+    #semana>tbody{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+    #semana{
+        #diasDaSemana{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        #diasDaSemana{
+            .diaDaSemana{
+                width: 14%;
+                padding: 10px 0px;
+                background-color: #303030;
+                border: 2px solid #000;
+                border-radius: 5px;
+                cursor: pointer;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                color: #f1f1f1;
+            }
+        }
+        .horarios{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .horarios{
+            .horario{
+                width: 14%;
+                padding: 5px 0px;
+                background-color: #f5f5f5;
+                border: 2px solid #000;
+                border-radius: 5px;
+                cursor: pointer;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .disabledHorario{
+                background-color: #616161;
+                color: white;
+            }
+        }
+    }
+
+    #horariosConfirmBtn{
+        height: 50px;
+        font-size: 1.5rem;
+        background-color: #f5f5f5;
+        border: 2px solid #000;
+        border-radius: 5px;
+        cursor: pointer;
+        align-self: center;
+        margin-top: 50px;
+    }
+    #horariosConfirmBtn:hover{
+        background-color: #000;
+        color: #fff;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    #agendaDiv{
+        flex-direction: column;
+        align-items: center;
+        #calendarDiv{
+            width: 81%;
+            margin: 0%;
+            #calendarToolbox{
+                .calendarBtn{
+                    width: 30%;
+                    font-size: 1rem;
+                }
+            }
+            #calendar{
+                #daysOfTheWeek{
+                    .dayOfTheWeek{
+                        font-size: 0.6rem;
+                    }
+                }
+                #calendarDays{
+                    .calendarDay{
+                        height: 50px;
+                        .dayDisplay{
+                            font-size: 0.7rem;
+                        }
+                        .availableTimes{
+                            font-size: 0.9rem;
+                        }
+                    }
+                }
+            }
+        }
+        #dayInfo{
+            width: 80%;
+            margin-top: 50px;
+            #dayInfoTitle{
+                font-size: 1.7rem;
+            }
+            #serviceInfo{
+                width: 80%;
+                text-align: center;
+            }
+        }
+    }
+    #semanaDiv{
+        #semanaTitle{
+            font-size: 1.5rem;
+        }
+        #semana{
+            width: 80%;
+            #diasDaSemana{
+                .diaDaSemana{
+                    padding: 5px 0px;
+                    font-size: 0.8rem;
+                }
+            }
+            .horarios{
+                .horario{
+                    padding: 5px 0px;
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #agendaDiv{
+        #calendarDiv{
+            #calendarToolbox{
+                .calendarBtn{
+                    width: 25%;
+                    font-size: 0.8rem;
+                }
+                #mesMostrado{
+                    font-size: 1rem;
+                }
+            }
+        }
+        #dayInfo{    
+            #horariosDisponiveis{
+                .horarioDisponivel{
+                    width: 100%;
+                    height: 40px;
+                    font-size: 1.2rem;
+                }
+            }
+            #serviceInfo{
+                width: 100%;
+                margin-top: 10px;
+            }
+            #serviceInfo{
+                #titleServiceInfo{
+                    font-size: 1.2rem;
+                }
+                #nomeConsumidor{
+                    font-size: 1rem;
+                }
+                #enderecoConsumidor{
+                    font-size: 0.8rem;
+                }
+            }
+        }
+    }
+
+    #perfil{
+        flex-direction: column;
+        align-items: center;
+        #perfilImgs{
+            width: 80%;
+            border-right: none;
+            #imgsDiv{
+                flex-direction: row;
+                #addImgBtn{
+                    width: 50px;
+                    aspect-ratio: 1/1;
+                    font-size: 1.5rem;
+                }
+                .imgDiv{
+                    width: 50px;
+                    margin-bottom: 0px;
+                    .perfilImg{
+                        width: 50px;
+                        aspect-ratio: 1/1;
+                    }
+                }
+            }
+        }
+        #perfilInfo{
+            width: 80%;
+            #perfilTitleTitle{
+                font-size: 1rem;
+                margin-bottom: 0px;
+                margin-top: 50px;
+            }
+            #perfilNewTitle{
+                font-size: 0.8rem;
+            }
+            #perfilDescTitle{
+                font-size: 1rem;
+                margin-top: 30px;
+            }
+            #perfilPrecoTitle{
+                font-size: 0.8rem;
+            }
+            #perfilDesc{
+                width: 100%;
+                font-size: 0.8rem;
+            }
+            #perfilNewDesc{
+                font-size: 0.8rem;
+                width: 100%;
+                height: 5rem;
+            }
+            #perfilNewPreco{
+                font-size: 1rem;
+            }
+            #perfilSaveBtn{
+                height: 40px;
+                font-size: 1rem;
+            }
+        }
+    }
+
+    #semanaDiv{
+        #semanaTitle{
+            font-size: 1rem;
+        }
+        #semana{
+            width: 90%;
+            #diasDaSemana{
+                .diaDaSemana{
+                    padding: 5px 0px;
+                    font-size: 0.6rem;
+                }
+            }
+            .horarios{
+                .horario{
+                    padding: 5px 0px;
+                    font-size: 0.8rem;
+                }
+            }
+        }
+
+        #horariosConfirmBtn{
+            height: 40px;
+            font-size: 1rem;
+            margin-top: 20px;
+        }
+    }
+}
