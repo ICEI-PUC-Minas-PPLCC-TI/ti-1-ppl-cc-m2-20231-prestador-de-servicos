@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>iWork</title>
+        <link rel="stylesheet" href="./src/cadastro.css">
+        <link rel="stylesheet" href="./src/navbar.css">
+        <link rel="icon" href="src/img/iWorkSquare.png" type="image/x-icon">
+        <script src="src/scripts/cadastro.js" defer></script>
+        <script src="src/scripts/putUsers.js" defer></script>
+    </head>
+<body>
+    <nav id="navbar">
+        <img onclick="window.location = './index.html'" id="navLogo" src="./src/img/logo.png">
+        <ul id="navOptions">
+            <li onclick="window.location = './index.html'" class="navOption">Página Inicial<img class="navImg" src="./src/img/menu.png"></li>
+            <li onclick="window.location = './pesquisa.html'" class="navOption">Pesquisa<img class="navImg" src="./src/img/search.png"></li>
+            <li onclick="window.location = './cadastro.html'" class="navOption">Cadastro<img class="navImg" src="./src/img/register.png"></li>
+        </ul>
+    </nav>
+    <main id="main">
+        <div id="cadastroDiv">
+            <img id="cadastroLogo" src="./src/img/logo.png">
+            <h3 id="cadastroTitle">Cadastro</h3>
+            <form id="cadastroForm">
+                <input id="nomeIn" class="cadastroInput" type="text" placeholder="Nome" autocomplete="name">
+                <input id="emailIn" class="cadastroInput" type="email" placeholder="E-mail" autocomplete="email">
+                <input id="telefoneIn" class="cadastroInput" type="tel" placeholder="Telefone" autocomplete="tel">
+                <input id="senhaIn" class="cadastroInput" type="password" placeholder="Senha" autocomplete="current-password">
+                <input id="senhaIn2" class="cadastroInput" type="password" placeholder="Confirme sua senha" autocomplete="current-password">
+                <div id="typeSelect">
+                    <div id="consumidorRadioDiv">
+                        <input type="radio" id="consumidorRadio" name="type" value="consumidor"><label for="consumidorRadio">Consumidor</label>
+                    </div>
+                    <div id="prestadorRadioDiv">
+                        <input type="radio" id="prestadorRadio" name="type" value="prestador"><label for="prestadorRadio">Prestador</label>
+                    </div>
+                </div>
+                <button id="cadastroBtn">Registrar</button>
+            </form>
+            <span id="cadastroSpan">Já possui uma conta? <a href="./login.html">Faça o Login</a></span>
+        </div>
+    </main>
+</body>
+</html>
