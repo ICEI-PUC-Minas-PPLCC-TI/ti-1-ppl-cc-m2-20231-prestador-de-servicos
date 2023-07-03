@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iWork</title>
+    <link rel="stylesheet" href="./src/pesquisa.css">
+    <link rel="stylesheet" href="./src/navbar.css">
+    <link rel="stylesheet" href="./src/bubble.css">
+    <link rel="icon" href="src/img/iWorkSquare.png" type="image/x-icon">
+
+    <script src="./src/scripts/pesquisa.js" defer></script>
+    <script src="src/scripts/putUsers.js" defer></script>
+</head>
+<body>
+    <nav id="navbar">
+        <img onclick="window.location = './index.html'" id="navLogo" src="./src/img/logo.png">
+        <ul id="navOptions">
+            <li onclick="window.location = './index.html'" class="navOption">Página Inicial<img class="navImg" src="./src/img/menu.png"></li>
+            <li onclick="window.location = './cadastro.html'" class="navOption">Cadastro<img class="navImg" src="./src/img/register.png"></li>
+            <li onclick="window.location = './login.html'" class="navOption">Login<img class="navImg" src="./src/img/register.png"></li>
+        </ul>
+    </nav>
+
+    <main id="main">
+        <form id="pesquisa">
+            <input id="pesquisaIn" type="text" placeholder="De qual serviço você precisa?">
+            <div id="searchResults">
+            </div>
+            <button id="pesquisaBtn"><img id="pesquisaImg" src="./src/img/search.png"></button>
+        </form>
+
+        <div id="searchDiv">
+            <img id="filterIcon" src="./src/img/filter.png">Filtro: 
+            <input class="searchInput" type="number" id="priceMin" placeholder="Preço Mínimo">
+            <span id="dashBetween"> - </span>
+            <input class="searchInput" type="number" id="priceMax" placeholder="Preço Máximo">
+            <select class="searchInput" id="orderType">
+                <option value="0">Ordenação</option>
+                <option value="1">Preço</option>
+                <option value="2">Avaliação</option>
+                <option value="3">Número de Pedidos</option>
+            </select>
+            <button id="searchBtn">Pesquisar</button>
+        </div>
+
+        <div id="centralDiv">
+            <div id="categoriesDiv">
+                <h3 id="categoriesTitle">Categorias</h3>
+                <ul id="categories">
+                    <li id="noCategory"><a href="./pesquisa.html" class="categoryLink">Todos Serviços</a></li>
+                    <li class="bigCategory">
+                        <span class="bigCategoryTitle">Categoria</span>
+                        <ul class="bigCategoryList">
+                            <li class="category"><a class="categoryLink" href="./pesquisa.html?category=categoria1">Categoria 1</a></li>
+                            <li class="category"><a class="categoryLink" href="./pesquisa.html?category=categoria2">Categoria 2</a></li>
+                            <li class="category"><a class="categoryLink" href="./pesquisa.html?category=dj">DJ</a></li>
+                        </ul>
+                    </li>
+                    <li class="bigCategory">
+                        <span class="bigCategoryTitle">Categoria</span>
+                        <ul class="bigCategoryList">
+                            <li class="category"><a class="categoryLink" href="./pesquisa.html?category=categoria4">Categoria 4</a></li>
+                            <li class="category"><a class="categoryLink" href="./pesquisa.html?category=categoria5">Categoria 5</a></li>
+                            <li class="category"><a class="categoryLink" href="./pesquisa.html?category=cozinheiro">Cozinheiro</a></li>
+                        </ul>
+                    </li>
+                    <li class="bigCategory">
+                        <span class="bigCategoryTitle">Categoria</span>
+                        <ul class="bigCategoryList">
+                            <li class="category"><a class="categoryLink" href="./pesquisa.html?category=categoria7">Categoria 7</a></li>
+                            <li class="category"><a class="categoryLink" href="./pesquisa.html?category=categoria8">Categoria 8</a></li>
+                            <li class="category"><a class="categoryLink" href="./pesquisa.html?category=maridodealuguel">Marido de Aluguel</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+    
+            <div id="servicesDiv">
+                <div class="service">
+                    <img class="serviceImg" src="./src/img/placeholder.png">
+                    <div class="serviceInfo">
+                        <h2 class="serviceName">Nome do Serviço</h2>
+                        <div id="separator">
+                            <p class="servicePrice">R$ 0,00</p>
+                            <p class="serviceRating"><img class="estrelasImg" src="./src/img/stars.png" style="clip-path: inset(0px 14% 0px 0px);"></p>
+                        </div>
+                        <p class="serviceDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eius amet sequi nostrum beatae qui rem aliquam nesciunt quo provident!</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <img class="serviceImg" src="./src/img/placeholder.png">
+                    <div class="serviceInfo">
+                        <h2 class="serviceName">Nome do Serviço</h2>
+                        <p class="servicePrice">R$ 0,00</p>
+                        <p class="serviceRating"><img class="estrelasImg" src="./src/img/stars.png" style="clip-path: inset(0px 14% 0px 0px);"></p>
+                        <p class="serviceDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eius amet sequi nostrum beatae qui rem aliquam nesciunt quo provident!</p>
+    
+                    </div>
+                </div>
+                <div class="service">
+                    <img class="serviceImg" src="./src/img/placeholder.png">
+                    <div class="serviceInfo">
+                        <h2 class="serviceName">Nome do Serviço</h2>
+                        <p class="servicePrice">R$ 0,00</p>
+                        <p class="serviceRating"><img class="estrelasImg" src="./src/img/stars.png" style="clip-path: inset(0px 14% 0px 0px);"></p>
+                        <p class="serviceDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eius amet sequi nostrum beatae qui rem aliquam nesciunt quo provident!</p>
+    
+                    </div>
+                </div>
+                <div class="service">
+                    <img class="serviceImg" src="./src/img/placeholder.png">
+                    <div class="serviceInfo">
+                        <h2 class="serviceName">Nome do Serviço</h2>
+                        <p class="servicePrice">R$ 0,00</p>
+                        <p class="serviceRating"><img class="estrelasImg" src="./src/img/stars.png" style="clip-path: inset(0px 14% 0px 0px);"></p>
+                        <p class="serviceDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eius amet sequi nostrum beatae qui rem aliquam nesciunt quo provident!</p>
+    
+                    </div>
+                </div>
+                <div class="service">
+                    <img class="serviceImg" src="./src/img/placeholder.png">
+                    <div class="serviceInfo">
+                        <h2 class="serviceName">Nome do Serviço</h2>
+                        <p class="servicePrice">R$ 0,00</p>
+                        <p class="serviceRating"><img class="estrelasImg" src="./src/img/stars.png" style="clip-path: inset(0px 14% 0px 0px);"></p>
+                        <p class="serviceDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eius amet sequi nostrum beatae qui rem aliquam nesciunt quo provident!</p>
+    
+                    </div>
+                </div>
+                <div class="service">
+                    <img class="serviceImg" src="./src/img/placeholder.png">
+                    <div class="serviceInfo">
+                        <h2 class="serviceName">Nome do Serviço</h2>
+                        <p class="servicePrice">R$ 0,00</p>
+                        <p class="serviceRating"><img class="estrelasImg" src="./src/img/stars.png" style="clip-path: inset(0px 14% 0px 0px);"></p>
+                        <p class="serviceDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eius amet sequi nostrum beatae qui rem aliquam nesciunt quo provident!</p>
+    
+                    </div>
+                </div>
+                <div class="service">
+                    <img class="serviceImg" src="./src/img/placeholder.png">
+                    <div class="serviceInfo">
+                        <h2 class="serviceName">Nome do Serviço</h2>
+                        <p class="servicePrice">R$ 0,00</p>
+                        <p class="serviceRating"><img class="estrelasImg" src="./src/img/stars.png" style="clip-path: inset(0px 14% 0px 0px);"></p>
+                        <p class="serviceDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eius amet sequi nostrum beatae qui rem aliquam nesciunt quo provident!</p>
+    
+                    </div>
+                </div>
+                <div class="service">
+                    <img class="serviceImg" src="./src/img/placeholder.png">
+                    <div class="serviceInfo">
+                        <h2 class="serviceName">Nome do Serviço</h2>
+                        <p class="servicePrice">R$ 0,00</p>
+                        <p class="serviceRating"><img class="estrelasImg" src="./src/img/stars.png" style="clip-path: inset(0px 14% 0px 0px);"></p>
+                        <p class="serviceDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eius amet sequi nostrum beatae qui rem aliquam nesciunt quo provident!</p>
+    
+                    </div>
+                </div>
+                <div class="service">
+                    <img class="serviceImg" src="./src/img/placeholder.png">
+                    <div class="serviceInfo">
+                        <h2 class="serviceName">Nome do Serviço</h2>
+                        <p class="servicePrice">R$ 0,00</p>
+                        <p class="serviceRating"><img class="estrelasImg" src="./src/img/stars.png" style="clip-path: inset(0px 14% 0px 0px);"></p>
+                        <p class="serviceDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex eius amet sequi nostrum beatae qui rem aliquam nesciunt quo provident!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="bubbleDiv" style="display: none;" onclick="window.location.href='./prestador.html'">
+        <img id="bubbleImg" src="src/img/profile.png">
+    </div>
+</body>
+</html>

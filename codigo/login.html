@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>iWork</title>
+        <link rel="stylesheet" href="./src/login.css">
+        <link rel="stylesheet" href="./src/navbar.css">
+        <link rel="icon" href="src/img/iWorkSquare.png" type="image/x-icon">
+        <script src="src/scripts/putUsers.js" defer></script>
+
+        <script src="src/scripts/login.js" defer></script>
+    </head>
+<body>
+    <nav id="navbar">
+        <img onclick="window.location = './index.html'" id="navLogo" src="./src/img/logo.png">
+        <ul id="navOptions">
+            <li onclick="window.location = './index.html'" class="navOption">Página Inicial<img class="navImg" src="./src/img/menu.png"></li>
+            <li onclick="window.location = './pesquisa.html'" class="navOption">Pesquisa<img class="navImg" src="./src/img/search.png"></li>
+            <li onclick="window.location = './cadastro.html'" class="navOption">Cadastro<img class="navImg" src="./src/img/register.png"></li>
+        </ul>
+    </nav>
+    <main id="main">
+        <div id="loginDiv">
+            <img id="loginLogo" src="./src/img/logo.png">
+            <h3 id="loginTitle">Login</h3>
+            <form id="loginForm">
+                <input id="emailIn" class="loginInput" type="email" placeholder="E-mail" autocomplete="email">
+                <input id="senhaIn" class="loginInput" type="password" placeholder="Senha" autocomplete="current-password">
+                <button id="loginBtn">Entrar</button>
+            </form>
+            <span id="loginSpan">Não possui uma conta? <a href="./cadastro.html">Cadastre-se</a></span>
+        </div>
+    </main>
+</body>
+</html>
