@@ -491,7 +491,7 @@ As tecnologias utilizadas para a elaboração do projeto foi a criação de uma 
 
 ## Registros de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Os resultados dos testes foram sólidos e, a princípio, não apresentaram erros evidentes. Os modelos de prestadores utilizados como teste do site mostraram a facilidade de implementar recursos ao perfil do usuário enquanto forneceder de seu serviço, como imagens, horários, preço e avaliações positivas. Além disso, a interface de usuário simplificada permite que um público abrangente seja capaz de usufruir das ferramentas fornecidas no site para seus usuários.
 
 > Discorra sobre os resultados do teste. Ressaltando pontos fortes e
 > fracos identificados na solução. Comente como o grupo pretende atacar
