@@ -144,9 +144,9 @@ No geral, as técnicas e ferramentas utilizadas para especificar o projeto do iW
 
 ## Personas, Empatia e Proposta de Valor
 
-<img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/persona1.png">
-<img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/persona2.png">
-<img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/persona3.png">
+![Personas](https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/persona1.png)
+![Personas](https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/persona2.png)
+![Personas](https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/persona3.png)
 
 
 > Relacione as personas identificadas no seu projeto, os respectivos mapas de empatia e 
@@ -303,13 +303,22 @@ Por fim, as interfaces foram elaboradas com base em personas que representam as 
 <p><b>OBS: Os wireframes ficaram diferentes do produto final, mas os componentes não divergiram do planejado</b></p></br>
 
 <p>Landing page com informações e cards sobre prestadores de serviço, incluindo os filtros<p>
-<img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/desktop1.png">
-<img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/desktop2.png">
+
+![Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/desktop1.png)
+![Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/desktop2.png)
+
 <p>Versao mobile responsiva</p>
-<img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/mobile.png">
+
+![Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/mobile.png)
+
 <p>Tela intuitiva de login e registro</p>
-<img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/login.png">
-<img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/register.png">
+
+![Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/login.png)
+![Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/register.png)
+
+<p>Uma outra versao do wireframe</p>
+
+![Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/wireframe.png)
 
 > Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
 > estrutura de um site web e seu relacionamentos entre suas
@@ -464,7 +473,9 @@ Utilizamos HTML e CSS como linguagens de texto e estilo, além do javascript com
 
 ## Arquitetura da solução
 
-<img src="images/diagrama.jpeg">
+![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/diagrama.jpeg)
+
+<p>Na nossa pasta de código, temos os arquivos HTML e uma pasta "src". Na pasta src temos os arquivos css de estilo e as fontes utilizadas, a pasta "img" que contém as imagens do código e a pasta "script" que contém os arquivos Javascript. Salvamos os dados utilizando Json e o local storage, e o website é hosteado no vercel.</p>
 
 > Inclua um diagrama da solução e descreva os módulos e as tecnologias
 > que fazem parte da solução. Discorra sobre o diagrama.
