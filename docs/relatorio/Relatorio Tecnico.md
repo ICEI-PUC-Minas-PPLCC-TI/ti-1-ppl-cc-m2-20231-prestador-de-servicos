@@ -299,6 +299,9 @@ Por fim, as interfaces foram elaboradas com base em personas que representam as 
 
 ## Wireframes
 
+</br>
+<p><b>OBS: Os wireframes ficaram diferentes do produto final, mas os componentes não divergiram do planejado</b></p></br>
+
 <p>Landing page com informações e cards sobre prestadores de serviço, incluindo os filtros<p>
 <img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/desktop1.png">
 <img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/desktop2.png">
@@ -356,11 +359,11 @@ Em resumo, nossa metodologia de trabalho foi baseada nas metodologias ágeis, co
 
 | Membro  | Pessoa              | Tarefa |
 |-----------|-------------------------|---------------|
-| 1 | Henrique Oliveira | Tarefa 1 | 
-| 2 | Gabriel Jota | Tarefa 2 | 
-| 3 | Antonio Neto | Tarefa 3 | 
-| 4 | Arthur Lira | Tarefa 4 | 
-| 5 | Andre | Tarefa 5 | 
+| 1 | Henrique Oliveira | Tarefa 1 e 2 |
+| 2 | Gabriel Jota | Tarefa 5 e 7 | 
+| 3 | Antonio Neto | Tarefa 3 e 10 |
+| 4 | Arthur Lira | Tarefa 4 e 9 |
+| 5 | Andre | Tarefa 6 e 8 | 
 
 > Apresente a divisão de papéis e tarefas entre os membros do grupo.
 >
@@ -430,7 +433,7 @@ Quanto à gerência de issues, o projeto adota a seguinte convenção para etiqu
 
 # Projeto da Solução
 
-Fundamentalmente, a solução proposta pelo projeto da iWork visa resolver o problema da conexão entre prestadores de serviços e clientes que estão em busca de serviços específicos. A iWork é uma página na internet que serve como uma plataforma intermediária, permitindo que os prestadores de serviços se cadastrem e os clientes encontrem profissionais qualificados para atender às suas necessidades.
+A solução proposta pela iWork busca resolver o problema da conexão entre prestadores de serviços e clientes que estão em busca de serviços específicos. A iWork é uma página na internet que serve como uma plataforma intermediária, permitindo que os prestadores de serviços se cadastrem e os clientes encontrem profissionais qualificados para atender às suas necessidades.
 
 A solução aborda o problema oferecendo um sistema de cadastro tanto para os prestadores de serviço quanto para os clientes. Por meio de um formulário de cadastro, os prestadores podem fornecer informações como nome, e-mail, telefone, serviços oferecidos e uma breve descrição sobre suas habilidades e experiências. Da mesma forma, os clientes podem se cadastrar informando seus dados pessoais e os serviços específicos que estão buscando.
 
@@ -438,15 +441,13 @@ Com o cadastro dos prestadores de serviços e dos clientes, a plataforma iWork a
 
 A solução também permite que os clientes entrem em contato diretamente com os prestadores de serviço por meio de informações de contato fornecidas no cadastro, como e-mail ou telefone. Dessa forma, a iWork proporciona uma maneira conveniente e eficiente para os clientes encontrarem profissionais qualificados e para os prestadores de serviços divulgarem seus trabalhos e expandirem sua base de clientes.
 
-Ao facilitar a conexão entre prestadores de serviços e clientes, a solução oferecida pela iWork ajuda a economizar tempo e esforço para ambas as partes. Os clientes podem encontrar os serviços necessários de forma mais rápida e direcionada, enquanto os prestadores de serviços têm a oportunidade de expandir sua clientela e alcançar um público maior por meio da plataforma online. Além disso, a possibilidade, por parte dos prestadores, de disponibilizar quais horários e quais dias ele estará apto para atender pedidos de trabalho garante uma solução flexível que evitará possíveis problemas de comunicação entra a clientela daqueles que realizam a requisição do pedido e daqueles que o fornecem.
+Ao facilitar a conexão entre prestadores de serviços e clientes, a solução oferecida pela iWork ajuda a economizar tempo e esforço para ambas as partes. Os clientes podem encontrar os serviços necessários de forma mais rápida e direcionada, enquanto os prestadores de serviços têm a oportunidade de expandir sua clientela e alcançar um público maior por meio da plataforma online. Além disso, há a possibilidade, por parte dos prestadores, de disponibilizar quais horários e quais dias ele estará apto para atender os pedidos de trabalho, o que garante uma abordagem flexível.
 
 Em resumo, a solução do projeto iWork resolve o problema da conexão entre prestadores de serviços e clientes, fornecendo uma plataforma online que permite o cadastro de ambos os lados, facilitando a busca e o contato direto entre as partes interessadas. Isso ajuda a agilizar o processo de contratação de serviços, tornando-o mais eficiente e conveniente para todos os envolvidos.
 
 ## Tecnologias Utilizadas
 
-As tecnologias utilizadas para a elaboração do projeto foi a criação de uma webpage completamente funcional, que permite com que realizemos testes e simulações mostrando situações hipotéticas em que foi realizada a conexão entre o prestador de serviço em busca de um trabalho e um possível cliente que procura a resolução de seu problema por meio do profissional contratado. A página usa, em sua maioria, as linguagens de programação HTML, CSS e JavaScript, bem como seu servidor para a hospedagem na nuvem. A principal IDE utilizada para o desenvolvimento da plataforma foi o VSCode e o Repl.it.
-
-......  COLOQUE AQUI O SEU TEXTO ......
+Utilizamos HTML e CSS como linguagens de texto e estilo, além do javascript como linguagem de programação. O aplicativo foi hosteado no Vercel. Grande parte do grupo usou o vscode, além do repl.it como aplicativo de programação "multiplayer"/compartilhada. JQuery, Bootstrap e outras tecnologias foram utilizadas por alguns dos membros do grupo.
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
@@ -463,15 +464,10 @@ As tecnologias utilizadas para a elaboração do projeto foi a criação de uma 
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
+<img src="images/diagrama.jpeg">
 
 > Inclua um diagrama da solução e descreva os módulos e as tecnologias
 > que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/arquitetura-exemplo.png)
-
 
 # Avaliação da Aplicação
 
