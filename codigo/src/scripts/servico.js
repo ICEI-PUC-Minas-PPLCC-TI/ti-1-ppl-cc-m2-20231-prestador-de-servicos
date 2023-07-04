@@ -782,6 +782,7 @@ document.getElementById("hireButton").addEventListener("click", ()=>{
         document.getElementById("dialogDesc").innerHTML = `O serviço ${getPrestador(getPageId()).nome} será realizado ${document.getElementById("hireTime").innerHTML.toLowerCase()}`;
         document.getElementsByTagName("dialog")[0].showModal()
         let servicos = getServicos();
+        let prestador = getPrestador(getPageId());
         servicos.push({
             "idPrestador": parseInt(getPageId()),
             "idServiço": servicos.length+1,
@@ -791,6 +792,14 @@ document.getElementById("hireButton").addEventListener("click", ()=>{
             "endereco": document.getElementById("hireEndereco1").value+" " + document.getElementById("hireEndereco2").value,
         })
         localStorage.setItem("servicos", JSON.stringify(servicos));
+        let prestadores = getPrestadores();
+        for(let i=0; i<prestadores.length; i++){
+            if(prestadores[i].id == getPageId()){
+                prestadores[i].nPedidos++;
+                localStorage.setItem("prestadores", JSON.stringify(prestadores));
+                break;
+            }
+        }
     }
 })
 

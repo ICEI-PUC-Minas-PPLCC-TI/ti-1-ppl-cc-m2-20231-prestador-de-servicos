@@ -141,9 +141,22 @@ function addResults(prestadoresList){
 }
 
 function putPrestadorBubble(){
-    let login = JSON.parse(localStorage.getItem("login"));
+    let login;
+    try{
+    login = JSON.parse(localStorage.getItem("login"));
+    }catch{
+        return;
+    }
     if(login.type == "prestador"){
         document.getElementById("bubbleDiv").style.display = "flex";
+        document.getElementById("bubbleDiv").addEventListener("click", ()=>{
+            window.location.href = "./prestador.html";
+        })
+    }else if(login.type == "consumidor"){
+        document.getElementById("bubbleDiv").style.display = "flex";
+        document.getElementById("bubbleDiv").addEventListener("click", ()=>{
+            window.location.href = "./profile.html";
+        })
     }
 }
 
