@@ -56,7 +56,7 @@ Ciencia da computação
 
 ## Problema
 
-Prestadores de serviço enfrentam dificuldades na hora de encontrar clientes. Clientes enfrentam dificuldades na hora de encontrar prestadores de serviço. O objetivo do projeto é acabar com esse ciclo. Pessoas comuns, empresas procurando por funcionários, o site pode ser usado por qualquer um.
+O problema que a aplicação deve resolver é a dificuldade de conexão entre prestadores de serviços e clientes em busca de serviços específicos. Muitas vezes, os clientes têm dificuldade em encontrar profissionais qualificados e confiáveis para atender às suas necessidades, enquanto os prestadores de serviços enfrentam desafios para encontrar clientes interessados em seus serviços. Desse modo, o projeto visa acabar com esse ciclo. O contexto em que essa aplicação será usada é o ambiente online, por meio de uma plataforma web.
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
@@ -76,7 +76,13 @@ Prestadores de serviço enfrentam dificuldades na hora de encontrar clientes. Cl
 
 ## Objetivos
 
-Queremos facilitar a vida das pessoas na hora de encontrar algum serviço. Se você precisa de alguem para arrumar seu chuveiro, basta pegar o aplicativo, entrar em contato com um prestador e pronto. É o lugar perfeito para prestadores divulgarem seu trabalho.
+O objetivo principal do projeto é facilitar a conexão entre prestadores de serviços e clientes, proporcionando uma plataforma online que permita a busca, filtragem e contato direto entre as partes interessadas. A aplicação busca melhorar a eficiência do processo de contratação de serviços, tornando-o mais conveniente e direcionado, ao mesmo tempo em que ajuda os prestadores de serviços a expandir sua clientela e os clientes a encontrar os serviços desejados com facilidade. Se você precisa de alguém para arrumar seu chuveiro, por exemplo, basta pegar o aplicativo, entrar em contato com um prestador e pronto. É o lugar perfeito para prestadores divulgarem seu trabalho. Alguns dos objetivos específicos do projeto são: 
+
+- Criar um mecanismo de comunicação direta entre prestadores de serviços e clientes, por meio do qual os clientes possam entrar em contato com os prestadores para obter mais informações sobre os serviços oferecidos e realizar acordos de contratação.
+
+- Garantir a segurança e privacidade dos dados dos usuários, implementando medidas de proteção e seguindo as melhores práticas de segurança da informação.
+
+- Criar uma interface de usuário intuitiva e amigável, proporcionando uma experiência agradável para os usuários da plataforma, tanto para prestadores de serviços quanto para clientes.
 
 > Aqui você deve descrever os objetivos do trabalho indicando que o
 > objetivo geral é desenvolver um software para solucionar o problema
