@@ -24,6 +24,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+
 }
 
 #pesquisa{
@@ -417,12 +418,5 @@ body{
                 font-size: 0.9rem;
             }
         }
-    }
-}
-
-@media only screen and (max-width: 520px) 
-{
-    #navLogo{
-        width: 100px;
     }
 }

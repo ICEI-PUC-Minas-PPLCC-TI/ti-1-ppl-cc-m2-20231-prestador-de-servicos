@@ -420,16 +420,12 @@ Em resumo, nossa metodologia de trabalho foi baseada nas metodologias ágeis, co
 A ferramenta de controle de versão adotada no projeto foi o Git, sendo que o Github foi utilizado para
 hospedagem do repositório upstream. O projeto seguirá a convenção seguinte para o nome das branches:
 - master: versão estável já testada do software
-- unstable: versão já testada do software, porém instável
-- feature-test: versão em testes do software
-- dev: versão de desenvolvimento do software
-- old: versão antiga do software como fallback
+- teste: versao para testes
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para etiquetas:
 - bugfix: uma funcionalidade encontra-se com problemas
 - enhancement: uma funcionalidade precisa ser melhorada
 - feature: uma nova funcionalidade precisa ser introduzida
-![Exemplo de Wireframe](https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/versoes.png)
 
 > **Links Úteis**:
 > - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
@@ -544,6 +540,8 @@ Stack Overflow para obter respostas para perguntas específicas e correções de
 Github como versionador de código.
 
 Vercel para host.
+
+Miro e figma para prototipagem.
 
 OBS studio para a gravação do vídeo.
 

@@ -12,7 +12,6 @@ function getPageCategory(){
     let url = window.location.href;
     let category;
     let categoryElts = document.getElementsByClassName("categoryLink");
-    console.log(categoryElts);
     for(let i=0; i<categoryElts.length; i++){
         categoryElts[i].classList.remove("categorySelected");
     }
@@ -31,12 +30,16 @@ function getPageCategory(){
     return category;
 }
 
-function getPrestadores(){
-    let prestadores = JSON.parse(localStorage.getItem("prestadores"))
-    let categoria = getPageCategory();
-    if(categoria == 'Todos') return prestadores;
-    prestadores = prestadores.filter(prestador=>prestador.categoria.toLowerCase().replace(/\s/g, "") == categoria)
-    return prestadores;
+function getPrestadores() {
+  let prestadores = localStorage.getItem("prestadores");
+  if (!prestadores) {
+    return []; // Return an empty array if no data is found in localStorage
+  }
+  prestadores = JSON.parse(prestadores);
+  let categoria = getPageCategory();
+  if (categoria == 'Todos') return prestadores;
+  prestadores = prestadores.filter(prestador => prestador.categoria.toLowerCase().replace(/\s/g, "") == categoria);
+  return prestadores;
 }
 
 function searchPrestadores(text){
@@ -140,25 +143,27 @@ function addResults(prestadoresList){
     }
 }
 
-function putPrestadorBubble(){
+function putPrestadorBubble() {
     let login;
-    try{
-    login = JSON.parse(localStorage.getItem("login"));
-    }catch{
-        return;
+    try {
+      login = JSON.parse(localStorage.getItem("login"));
+    } catch {
+      return;
     }
-    if(login.type == "prestador"){
+    if (login && login.type) {
+      if (login.type == "prestador") {
         document.getElementById("bubbleDiv").style.display = "flex";
-        document.getElementById("bubbleDiv").addEventListener("click", ()=>{
-            window.location.href = "./prestador.html";
-        })
-    }else if(login.type == "consumidor"){
+        document.getElementById("bubbleDiv").addEventListener("click", () => {
+          window.location.href = "./prestador.html";
+        });
+      } else if (login.type == "consumidor") {
         document.getElementById("bubbleDiv").style.display = "flex";
-        document.getElementById("bubbleDiv").addEventListener("click", ()=>{
-            window.location.href = "./profile.html";
-        })
+        document.getElementById("bubbleDiv").addEventListener("click", () => {
+          window.location.href = "./profile.html";
+        });
+      }
     }
-}
+  }
 
 putPrestadoresList(currentResults);
 putPrestadorBubble();
