@@ -8,6 +8,7 @@
   font-family: "poppins";
 }
 
+
 .navImg:nth-of-type(1){
     filter: grayscale(100%);
 }
@@ -29,6 +30,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 #loginDiv{

@@ -26,7 +26,6 @@ body{
     align-items: center;
 }
 
-
 #pesquisa{
     width: 70%;
     display: flex;
@@ -211,8 +210,6 @@ body{
                 font-size: 1rem;
             }
             .bigCategoryList{
-                .category{
-                }
                 .category{
                     .categoryLink{
                         color: #000;
@@ -420,5 +417,12 @@ body{
                 font-size: 0.9rem;
             }
         }
+    }
+}
+
+@media only screen and (max-width: 520px) 
+{
+    #navLogo{
+        width: 100px;
     }
 }

@@ -191,4 +191,3 @@ document.getElementById("searchBtn").addEventListener("click", e=>{
     let filteredResults = filterResults(currentResults);
     putPrestadoresList(filteredResults);
 })
-
