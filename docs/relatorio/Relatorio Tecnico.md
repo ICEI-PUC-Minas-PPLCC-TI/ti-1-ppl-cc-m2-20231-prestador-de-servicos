@@ -490,7 +490,7 @@ Utilizamos HTML e CSS como linguagens de texto e estilo, além do javascript com
 
 ## Plano de Testes
 
-O cenário de teste selecionado foi um pequeno arquivo JavaScript que simula a página pessoal de alguns usuários já oferecendo seus serviços, incluindo uma pequena descrição, bem como os horários em que o trabalhador estará disponível para a execução de seu serviço. O grupo de usuários escolhido foi o cidadão médio com suas habilidades pessoais, sendo elas atividades como DJ, cozinheiro e reparos domiciliares. Com isso, conseguimos avaliar as funcionalidades de cadastro, login, filtro e calendário do projeto.
+......  COLOQUE AQUI O SEU TEXTO ......
 
 > Enumere quais cenários de testes foram selecionados para teste. Neste
 > tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
@@ -500,11 +500,13 @@ O cenário de teste selecionado foi um pequeno arquivo JavaScript que simula a p
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
 > - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> - [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
+> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
 
 ## Ferramentas de Testes (Opcional)
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Selenium: Utilizamos um script .py para verificar a compatibilidade do aplicativo nos 3 browsers mais famosos (edge, chrome e firefox).
+
+Lighthouse: Uma ferramenta que pode ser usada para verificar desempenho, acessibilidade e outras características do website. Os resultados foram satisfatórios.
 
 > Comente sobre as ferramentas de testes utilizadas.
 > 
@@ -514,7 +516,7 @@ O cenário de teste selecionado foi um pequeno arquivo JavaScript que simula a p
 
 ## Registros de Testes
 
-Os resultados dos testes foram sólidos e, a princípio, não apresentaram erros evidentes. Os modelos de prestadores utilizados como teste do site mostraram a facilidade de implementar recursos ao perfil do usuário enquanto fornecedor de seu serviço, como imagens, horários, preço e avaliações positivas. Além disso, a interface de usuário simplificada permite que um público abrangente seja capaz de usufruir das ferramentas fornecidas no site para seus usuários.
+Os familiares conseguiram navegar sem problemas, inclusive os de maior idade, que normalmente tem mais dificuldade. O site se adequa bem aos diferentes tamanhos de tela, o conjunto de cores é satisfatório e o desempenho apontado foi bom. Um dos objetivos do website foi manter um alto nível de acessibilidade, já que todas pessoas maiores de 18 anos podem utilizar todas as funções do iwork. O site é responsivo, tem um design com fontes e imagens grandes, e é intuitivo.
 
 > Discorra sobre os resultados do teste. Ressaltando pontos fortes e
 > fracos identificados na solução. Comente como o grupo pretende atacar
@@ -524,7 +526,26 @@ Os resultados dos testes foram sólidos e, a princípio, não apresentaram erros
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Documentação oficial do HTML: A documentação oficial do HTML fornece uma referência completa sobre as tags, atributos e elementos HTML. Ela pode ser encontrada em: https://developer.mozilla.org/pt-BR/docs/Web/HTML
+CSS (Cascading Style Sheets):
+
+Documentação oficial do CSS: A documentação oficial do CSS oferece uma referência detalhada sobre as propriedades, seletores e estilos CSS. Você pode consultá-la em: https://developer.mozilla.org/pt-BR/docs/Web/CSS
+
+Documentação oficial do JavaScript: A documentação oficial do JavaScript é uma referência essencial para aprender sobre a linguagem, recursos, métodos e APIs disponíveis. Visite: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+
+W3Schools é um recurso online muito utilizado para aprender e consultar informações sobre HTML, CSS, JavaScript e outras tecnologias da web. O site oferece tutoriais, exemplos e uma referência abrangente. Acesse: https://www.w3schools.com/
+
+Documentação do Selenium: O Selenium é uma ferramenta popular para automação de testes em navegadores web. A documentação oficial do Selenium oferece guias, exemplos e informações detalhadas sobre como usar a ferramenta. Confira em: https://www.selenium.dev/documentation/
+
+Há muitos blogs e tutoriais disponíveis online que forneceram informações úteis e práticas sobre desenvolvimento web. Alguns sites populares incluem o Smashing Magazine (https://www.smashingmagazine.com/) e o CSS-Tricks (https://css-tricks.com/).
+
+Stack Overflow para obter respostas para perguntas específicas e correções de bugs.
+
+Github como versionador de código.
+
+Vercel para host.
+
+OBS studio para a gravação do vídeo.
 
 > Inclua todas as referências (livros, artigos, sites, etc) utilizados
 > no desenvolvimento do trabalho.
