@@ -11,6 +11,7 @@ let prestadoresTxt = `
         "nota": 4.5,
         "nAvaliacoes": 10,
         "nPedidos": 20,
+        "telefone": "31988088186",
         "descricao": "Como um veterano na cena da música, trago mais de 15 anos de experiência para os meus serviços de DJ. Seja para eventos, casamentos ou festas de aniversário, consigo transitar facilmente entre diferentes gêneros musicais para agradar a todos os tipos de público. Conto com meu próprio equipamento de som de alta qualidade e uma vasta biblioteca de música digital.",
         "imagens": [
             "https://media.djban.com.br/2019/04/13182729/DJ-Music-Wallpaper-Free-Download-Image-750x465.jpg", 
@@ -120,6 +121,7 @@ let prestadoresTxt = `
         "nota": 3.0,
         "nAvaliacoes": 5,
         "nPedidos": 10,
+        "telefone": "31988088186",
         "descricao": "Sou Maria do Carmo, uma cozinheira talentosa especializada em culinária brasileira regional. Ofereço serviços de preparação de refeições para eventos, jantares privados e festas. Utilizo ingredientes frescos e de alta qualidade, preparando cada prato com atenção meticulosa aos detalhes. Seja uma festa íntima ou um grande evento, garanto uma experiência culinária inesquecível.",
         "imagens": [
             "https://istoe.com.br/wp-content/uploads/2017/07/d0ee60bfad29fdcb333d77db83cd1f73bab9bfef.jpg",
@@ -209,6 +211,7 @@ let prestadoresTxt = `
         "nota": 2.5,
         "nAvaliacoes": 2,
         "nPedidos": 5,
+        "telefone": "31988088186",
         "descricao": "Sou João Carlos, um experiente marido de aluguel capaz de lidar com uma variedade de tarefas domésticas. Meus serviços incluem reparos elétricos, encanamento, montagem de móveis, instalação de eletrodomésticos, pintura e muito mais. Sou conhecido pela minha pontualidade, trabalho limpo e eficiente e excelente atendimento ao cliente",
         "imagens": [
             "https://s3-sa-east-1.amazonaws.com/triider-prd-blog-files/wp-content/uploads/2018/05/28161216/o-que-%C3%A9-marido-de-aluguel.jpg",

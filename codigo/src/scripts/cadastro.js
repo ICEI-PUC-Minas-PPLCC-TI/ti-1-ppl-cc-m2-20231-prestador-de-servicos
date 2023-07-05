@@ -34,8 +34,12 @@ function register(){
     let nome = document.getElementById("nomeIn").value;
     let email = document.getElementById("emailIn").value;
     let telefone = document.getElementById("telefoneIn").value;
+    telefone.replace(/[^0-9]/g, '');
     let senha = document.getElementById("senhaIn").value;
     let confirmacaoSenha = document.getElementById("senhaIn2").value;
+    let cartao = document.getElementById("cartaoIn").value;
+    let validade = document.getElementById("validadeIn").value;
+    let cvv = document.getElementById("cvvIn").value;
     let type = getSelectedValue();
     if(email=="" || senha=="" || nome=="" || type=="" || type == undefined){
         alert("Preencha todos os campos");
@@ -56,14 +60,14 @@ function register(){
     }
     let id = users.length + 1;
     if(type == "prestador"){
-        let user = {"id": id, "nomePrestador": nome, "telefone": telefone, "email": email, "senha": senha, "nome": "", categoria: "", "preco": 0, "nota": 0, "nAvaliacoes": 0, "nPedidos": 0, "descricao": "", "imagens": [], "dias": [{"dia": "domingo", "horas": []}, {"dia": "segunda", "horas": []}, {"dia": "terça", "horas": []}, {"dia": "quarta", "horas": []}, {"dia": "quinta", "horas": []}, {"dia": "sexta", "horas": []}, {"dia": "sábado", "horas": []}, ]};
+        let user = {"id": id, "nomePrestador": nome, "telefone": telefone, "email": email, "senha": senha, "cartao": cartao, "validade": validade, "cvv": cvv, "nome": "", categoria: "", "preco": 0, "nota": 0, "nAvaliacoes": 0, "nPedidos": 0, "descricao": "", "imagens": [], "dias": [{"dia": "domingo", "horas": []}, {"dia": "segunda", "horas": []}, {"dia": "terça", "horas": []}, {"dia": "quarta", "horas": []}, {"dia": "quinta", "horas": []}, {"dia": "sexta", "horas": []}, {"dia": "sábado", "horas": []}, ]};
         let prestadores = getPrestadores();
         prestadores.push(user);
         localStorage.setItem("prestadores", JSON.stringify(prestadores));
         localStorage.setItem("login", JSON.stringify({"id": id, "type": "prestador"}));
         window.location.href = "./prestador.html";
     }else{
-        let user = {"id": id, "nome": nome, "email": email, "senha": senha};
+        let user = {"id": id, "nome": nome, "email": email, "senha": senha, "telefone": telefone, "cartao": cartao, "validade": validade, "cvv": cvv,};
         let consumidores = getConsumidores();
         consumidores.push(user);
         localStorage.setItem("consumidores", JSON.stringify(consumidores));
