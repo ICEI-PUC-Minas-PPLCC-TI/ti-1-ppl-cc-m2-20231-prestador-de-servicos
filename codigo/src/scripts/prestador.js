@@ -191,9 +191,36 @@ function showUnavailableTimes(){
 
 function putPrestadorInfo(){
     let prestador = getPrestador();
+    let categorias = {
+        "limpezageraldacasa": "Limpeza Geral da Casa",
+        "organizacaodearmariosedespensas": "Organização de Armários e Despensas",
+        "lavagemepassagemderoupas": "Lavagem e Passagem de Roupas",
+        "banhoetosa": "Banho e Tosa",
+        "passeiocomcachorros": "Passeio com Cachorros",
+        "hospedagemtemporaria": "Hospedagem Temporária",
+        "eletricista": "Eletricista",
+        "pinturaereformas": "Pintura e Reformas",
+        "instalacaodemoveiseprateleiras": "Instalação de Móveis e Prateleiras",
+        "preparacaoderefeicoes": "Preparação de Refeições",
+        "churrasqueiro": "Churrasqueiro",
+        "docesebolos": "Doces e Bolos",
+        "garconsebartenders": "Garçons e Bartenders",
+        "cuidadordeidosos": "Cuidador de Idosos",
+        "acompanhamentodepessoascomnecessidadesespeciais": "Acompanhamento de Pessoas com Necessidades Especiais",
+        "acompanhamentohospitalar": "Acompanhamento Hospitalar",
+        "fisioterapeutadomiciliar": "Fisioterapeuta Domiciliar",
+        "decoradores": "Decoradores",
+        "fotografos": "Fotógrafos",
+        "criacaodeconvites": "Criação de Convites",
+        "mesascadeiraseutensilios": "Mesas, Cadeiras e Utensílios",
+        "musicosedjs": "Músicos e DJs",
+        "alugueldebrinquedosejogos": "Aluguel de Brinquedos e Jogos",
+        "animadores": "Animadores"
+    }
     document.getElementById("perfilTitle").innerHTML = prestador.nome;
     document.getElementById("perfilDesc").innerHTML = prestador.descricao;
     document.getElementById("perfilPreco").innerHTML = "R$"+prestador.preco;
+    document.getElementById("perfilCategoria").innerHTML = categorias[prestador.categoria];
     document.getElementById("imgsDiv").innerHTML = "";
     prestador.imagens.forEach(img => {
         let imgDiv = document.createElement("div");
@@ -284,6 +311,9 @@ document.getElementById("perfilSaveBtn").addEventListener("click", ()=>{
         }else{
             prestador.preco = parseFloat(document.getElementById("perfilNewPreco").value.split("R$")[1]);
         }
+    }
+    if(document.getElementById("perfilNewCategoria").value != "categoria"){
+        prestador.categoria = document.getElementById("perfilNewCategoria").value;
     }
     let prestadores = JSON.parse(localStorage.getItem("prestadores"));
     for(let i=0; i<prestadores.length; i++){

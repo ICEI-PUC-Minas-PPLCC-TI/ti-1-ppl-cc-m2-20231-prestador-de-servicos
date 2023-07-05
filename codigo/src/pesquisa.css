@@ -163,7 +163,7 @@ body{
 
 
 #categoriesDiv{
-    width: 15%;
+    width: 20%;
     height: fit-content;
     display: flex;
     background-color: #fff;
@@ -244,6 +244,7 @@ body{
         background-color: white;
         border-radius: 10px;
         width: 400px;
+        height: fit-content;
         margin: 0px 50px;
         margin-bottom: 50px;
         cursor: pointer;
@@ -309,6 +310,7 @@ body{
         margin-left: auto;
         margin-right: auto;
         order: 2;
+        height: fit-content;
     }
     #servicesDiv{
         width: 100%;

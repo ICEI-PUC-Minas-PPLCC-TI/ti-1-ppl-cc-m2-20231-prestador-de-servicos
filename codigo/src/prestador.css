@@ -311,6 +311,9 @@ body{
         #perfilPrecoTitle{
             margin-bottom: 0px;
         }
+        #perfilCategoriaTitle{
+            margin-bottom: 0px;
+        }
         #perfilDesc{
             width: 90%;
             text-align: center;
@@ -325,6 +328,11 @@ body{
         #perfilNewPreco{
             border-radius: 5px;
             font-size: 1rem;
+        }
+        #perfilNewCategoria{
+            border-radius: 5px;
+            font-size: 1rem;
+            max-width: 70%;
         }
         #perfilSaveBtn{
             height: 50px;
