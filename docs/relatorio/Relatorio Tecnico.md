@@ -490,7 +490,7 @@ Utilizamos HTML e CSS como linguagens de texto e estilo, além do javascript com
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O cenário de teste selecionado foi um pequeno arquivo JavaScript que simula a página pessoal de alguns usuários já oferecendo seus serviços, incluindo uma pequena descrição, bem como os horários em que o trabalhador estará disponível para a execução de seu serviço. O grupo de usuários escolhido foi o cidadão médio com suas habilidades pessoais, sendo elas atividades como DJ, cozinheiro e reparos domiciliares. Com isso, conseguimos avaliar as funcionalidades de cadastro, login, filtro e calendário do projeto.
 
 > Enumere quais cenários de testes foram selecionados para teste. Neste
 > tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
@@ -500,7 +500,7 @@ Utilizamos HTML e CSS como linguagens de texto e estilo, além do javascript com
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
 > - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
+> - [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
 
 ## Ferramentas de Testes (Opcional)
 
@@ -514,7 +514,7 @@ Utilizamos HTML e CSS como linguagens de texto e estilo, além do javascript com
 
 ## Registros de Testes
 
-Os resultados dos testes foram sólidos e, a princípio, não apresentaram erros evidentes. Os modelos de prestadores utilizados como teste do site mostraram a facilidade de implementar recursos ao perfil do usuário enquanto forneceder de seu serviço, como imagens, horários, preço e avaliações positivas. Além disso, a interface de usuário simplificada permite que um público abrangente seja capaz de usufruir das ferramentas fornecidas no site para seus usuários.
+Os resultados dos testes foram sólidos e, a princípio, não apresentaram erros evidentes. Os modelos de prestadores utilizados como teste do site mostraram a facilidade de implementar recursos ao perfil do usuário enquanto fornecedor de seu serviço, como imagens, horários, preço e avaliações positivas. Além disso, a interface de usuário simplificada permite que um público abrangente seja capaz de usufruir das ferramentas fornecidas no site para seus usuários.
 
 > Discorra sobre os resultados do teste. Ressaltando pontos fortes e
 > fracos identificados na solução. Comente como o grupo pretende atacar
