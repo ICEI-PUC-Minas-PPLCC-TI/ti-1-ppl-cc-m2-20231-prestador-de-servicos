@@ -111,7 +111,7 @@ A frustração de pessoas com a falta de conexão entre cliente e prestadores de
 
 ## Público-Alvo
 
-Qualquer pessoa acima da faixa dos 18 anos de idade. Seja o cliente um homem em busca de ajuda com um serviço elétrico de sua casa ou uma senhora de idade em busca de um conserto ou obra mais complexa, os prestadores de serviço do iWork poderão cobrir uma gama de serviços ampla e diversa.
+Qualquer pessoa acima da faixa dos 18 anos de idade. Seja o cliente um homem em busca de ajuda com um serviço elétrico de sua casa ou uma senhora de idade em busca de um conserto ou obra mais complexa, os prestadores de serviço do iWork podem cobrir uma gama de serviços ampla e diversa.
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
@@ -478,35 +478,35 @@ Utilizamos HTML e CSS como linguagens de texto e estilo, além do javascript com
 
 # Avaliação da Aplicação
 
-Cenário de Teste 1: Cadastro do usuário
+## Cenário de Teste 1: Cadastro do usuário
 
 Funcionalidade Avaliada: Cadastro de novos usuários na aplicação.
 Grupo de Usuários: Usuários potenciais da aplicação.
 Ferramentas Utilizadas: Navegador web.
 Descrição: Neste cenário de teste, verificamos se o sistema permite o cadastro de novos usuários. Os passos incluem preencher o formulário de cadastro com informações válidas, enviar o formulário e verificar se o usuário é criado com sucesso no sistema.
 
-Cenário de Teste 2: Login do Usuário
+## Cenário de Teste 2: Login do Usuário
 
 Funcionalidade Avaliada: Processo de login de usuários cadastrados.
 Grupo de Usuários: Usuários cadastrados na aplicação.
 Ferramentas Utilizadas: Navegador web.
 Descrição: Neste cenário, verificamos se os usuários conseguem fazer login na aplicação com sucesso.
 
-Cenário de Teste 3: Pesquisa
+## Cenário de Teste 3: Pesquisa
 
 Funcionalidade Avaliada: Capacidade de filtrar por profissionais
 Grupo de Usuários: Pessoas buscando serviços.
 Ferramentas Utilizadas: Navegador web.
 Descrição: Neste cenário, verificamos se os usuários conseguem pesquisar por prestadores de serviço de modo intuitivo. Também validamos os filtros da aplicação.
 
-Cenário de Teste 4: Detalhes
+## Cenário de Teste 4: Detalhes
 
 Funcionalidade Avaliada: Pagina de detalhes do profissional
 Grupo de Usuários:  Prestadores de serviço
 Ferramentas Utilizadas: Navegador web.
 Descrição: Neste cenário, verificamos se os usuários conseguem acessar a página de detalhes de cada um dos profissionais cadastrados no iwork, na qual podem ver outras características, se comunicar com os prestadores e agendar um serviço.
 
-Cenário de Teste 5: Agendamento
+## Cenário de Teste 5: Agendamento
 
 Funcionalidade Avaliada: Agendamento de uma data com os profissionais
 Grupo de Usuários:  Pessoas buscando serviços.
@@ -521,7 +521,11 @@ Descrição: Neste cenário, verificamos se os usuários conseguem agendar um ho
 
 Utilizamos o lighthouse para obter dados de teste do website, como acessibilidade, desempenho e outros fatores.
 
-![Lighthouse]()
+![Lighthouse](https://raw.githubusercontent.com/ICEI-PUC-Minas-PPLCC-TI/ti-1-ppl-cc-m2-20231-prestador-de-servicos/master/docs/relatorio/images/lighthouse.jpeg)
+
+O grupo de usuário de testes foram os familiares, que usaram o aplicativo como prestadores de serviço, e uma empregada, Nilma (cujo perfil foi implementado no site, mas com fotos diferentes da real), que cadastrou como uma prestadora de serviço.
+
+Testamos na versão mobile e na versão desktop.
 
 > Enumere quais cenários de testes foram selecionados para teste. Neste
 > tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
@@ -547,7 +551,7 @@ Lighthouse: Uma ferramenta que pode ser usada para verificar desempenho, acessib
 
 ## Registros de Testes
 
-Os familiares conseguiram navegar sem problemas, inclusive os de maior idade, que normalmente tem mais dificuldade. O site se adequa bem aos diferentes tamanhos de tela, o conjunto de cores é satisfatório e o desempenho apontado foi bom. Um dos objetivos do website foi manter um alto nível de acessibilidade, já que todas pessoas maiores de 18 anos podem utilizar todas as funções do iwork. O site é responsivo, tem um design com fontes e imagens grandes, e é intuitivo.
+Os familiares conseguiram navegar sem problemas, inclusive os de maior idade, que normalmente tem mais dificuldade. O site se adequa bem aos diferentes tamanhos de tela, o conjunto de cores é satisfatório e o desempenho apontado foi bom. Um dos objetivos do website foi manter um alto nível de acessibilidade, já que o app tem a democratização como foco. O site é responsivo, tem um design com fontes e imagens grandes, e é intuitivo.
 
 > Discorra sobre os resultados do teste. Ressaltando pontos fortes e
 > fracos identificados na solução. Comente como o grupo pretende atacar
