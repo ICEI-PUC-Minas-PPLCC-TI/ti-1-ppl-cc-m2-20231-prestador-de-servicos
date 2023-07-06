@@ -324,7 +324,7 @@ Por fim, as interfaces foram elaboradas com base em personas que representam as 
 > estrutura de um site web e seu relacionamentos entre suas
 > páginas. Um wireframe web é uma ilustração semelhante ao
 > layout de elementos fundamentais na interface.
-> 
+>
 > **Links Úteis**:
 > - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
 > - [Figma](https://www.figma.com/)
@@ -478,7 +478,40 @@ Utilizamos HTML e CSS como linguagens de texto e estilo, além do javascript com
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Cenário de Teste 1: Cadastro do usuário
+
+Funcionalidade Avaliada: Cadastro de novos usuários na aplicação.
+Grupo de Usuários: Usuários potenciais da aplicação.
+Ferramentas Utilizadas: Navegador web.
+Descrição: Neste cenário de teste, verificamos se o sistema permite o cadastro de novos usuários. Os passos incluem preencher o formulário de cadastro com informações válidas, enviar o formulário e verificar se o usuário é criado com sucesso no sistema.
+
+Cenário de Teste 2: Login do Usuário
+
+Funcionalidade Avaliada: Processo de login de usuários cadastrados.
+Grupo de Usuários: Usuários cadastrados na aplicação.
+Ferramentas Utilizadas: Navegador web.
+Descrição: Neste cenário, verificamos se os usuários conseguem fazer login na aplicação com sucesso.
+
+Cenário de Teste 3: Pesquisa
+
+Funcionalidade Avaliada: Capacidade de filtrar por profissionais
+Grupo de Usuários: Pessoas buscando serviços.
+Ferramentas Utilizadas: Navegador web.
+Descrição: Neste cenário, verificamos se os usuários conseguem pesquisar por prestadores de serviço de modo intuitivo. Também validamos os filtros da aplicação.
+
+Cenário de Teste 4: Detalhes
+
+Funcionalidade Avaliada: Pagina de detalhes do profissional
+Grupo de Usuários:  Prestadores de serviço
+Ferramentas Utilizadas: Navegador web.
+Descrição: Neste cenário, verificamos se os usuários conseguem acessar a página de detalhes de cada um dos profissionais cadastrados no iwork, na qual podem ver outras características, se comunicar com os prestadores e agendar um serviço.
+
+Cenário de Teste 5: Agendamento
+
+Funcionalidade Avaliada: Agendamento de uma data com os profissionais
+Grupo de Usuários:  Pessoas buscando serviços.
+Ferramentas Utilizadas: Navegador web.
+Descrição: Neste cenário, verificamos se os usuários conseguem agendar um horário na página de pesquisas.
 
 > Apresente os cenários de testes utilizados na realização dos testes da
 > sua aplicação. Escolha cenários de testes que demonstrem os requisitos
@@ -486,7 +519,9 @@ Utilizamos HTML e CSS como linguagens de texto e estilo, além do javascript com
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Utilizamos o lighthouse para obter dados de teste do website, como acessibilidade, desempenho e outros fatores.
+
+![Lighthouse]()
 
 > Enumere quais cenários de testes foram selecionados para teste. Neste
 > tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
